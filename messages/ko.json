@@ -1,0 +1,146 @@
+{
+    "Index": {
+        "title": "ONEfold - 모든 파일을 하나의 폴더에",
+        "description": "여행, 프로젝트, 하루 일정까지 흩어진 파일을 한 곳에 정리하세요.",
+        "hero": {
+            "headline": "모든 파일을 하나의 폴더에",
+            "subtext": "여행, 프로젝트, 하루 일정까지 흩어진 파일을 한 곳에 정리하세요.",
+            "downloadAndroid": "Google Play",
+            "downloadIos": "App Store (Coming Soon)"
+        },
+        "overview": {
+            "title": "ONEfold는 무엇인가?",
+            "description": "ONEfold는 특정 주제와 관련된 모든 파일을 하나의 폴더에 모아 관리하는 앱입니다.",
+            "supportFiles": "지원 파일: 문서, 이미지, 동영상, 음악, 인터넷 링크, 지도 위치, 메모 등"
+        },
+        "features": {
+            "title": "강력한 기능",
+            "items": {
+                "files": {
+                    "title": "파일 정리",
+                    "desc": "다양한 파일을 카드 형태로 정리"
+                },
+                "links": {
+                    "title": "인터넷 링크 저장",
+                    "desc": "웹페이지, 유튜브 링크 저장"
+                },
+                "maps": {
+                    "title": "지도 위치 저장",
+                    "desc": "Google, Naver, Kakao, T Map 지원"
+                },
+                "notes": {
+                    "title": "메모 및 음성",
+                    "desc": "텍스트 메모와 음성 녹음 저장"
+                },
+                "camera": {
+                    "title": "카메라 및 스캔",
+                    "desc": "사진 촬영 및 문서 스캔 저장"
+                }
+            }
+        },
+        "useCases": {
+            "title": "ONEfold와 함께하는 일상",
+            "items": {
+                "travel": {
+                    "title": "해외 여행",
+                    "desc": "여권 사본, 비자, 호텔 예약, 지도 경로를 한 곳에.",
+                    "list": [
+                        "여권 및 비자",
+                        "호텔/렌트카 예약",
+                        "여행 일정 PDF",
+                        "지도 경로"
+                    ]
+                },
+                "project": {
+                    "title": "프로젝트 관리",
+                    "desc": "기획서, 엑셀, PPT, 참고 링크를 하나의 폴더로.",
+                    "list": [
+                        "기획서 및 보고서",
+                        "진행표 (Excel)",
+                        "발표자료 (PPT)",
+                        "참고 웹링크"
+                    ]
+                },
+                "daily": {
+                    "title": "하루 일정 관리",
+                    "desc": "오늘의 메모, 방문지 지도, 회의 자료를 깔끔하게.",
+                    "list": [
+                        "오늘의 일정 메모",
+                        "거래처 위치 (지도)",
+                        "회의 참고 파일",
+                        "음성 메모"
+                    ]
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "간편한 사용 방법",
+            "step1": {
+                "title": "찾기",
+                "desc": "저장할 파일이나 링크를 엽니다."
+            },
+            "step2": {
+                "title": "공유",
+                "desc": "공유 버튼을 누릅니다."
+            },
+            "step3": {
+                "title": "저장",
+                "desc": "ONEfold를 선택하여 저장합니다."
+            }
+        },
+        "privacy": {
+            "title": "Your Data Stays on Your Phone",
+            "desc": "ONEfold는 파일을 서버에 저장하지 않습니다. 모든 데이터는 사용자의 스마트폰 내부에만 안전하게 저장됩니다.",
+            "note": "단, 인터넷 링크와 지도 링크 기능은 외부 연결이 필요합니다."
+        },
+        "faq": {
+            "title": "자주 묻는 질문",
+            "items": [
+                {
+                    "q": "ONEfold는 무료인가요?",
+                    "a": "네, 현재 모든 기능을 무료로 이용하실 수 있습니다."
+                },
+                {
+                    "q": "인터넷 없이 사용할 수 있나요?",
+                    "a": "네, 저장된 로컬 파일과 메모는 오프라인에서도 확인 가능합니다. 다만 웹링크와 지도는 인터넷 연결이 필요합니다."
+                },
+                {
+                    "q": "파일은 어디에 저장되나요?",
+                    "a": "사용자 기기의 내부 저장소에만 저장되며, 외부 서버로 전송되지 않습니다."
+                }
+            ]
+        },
+        "contact": {
+            "title": "지금 ONEfold를 시작하세요",
+            "button": "Google Play",
+            "support": "문의하기"
+        },
+        "footer": {
+            "privacy": "개인정보 처리방침",
+            "terms": "이용약관",
+            "support": "고객지원",
+            "copyright": "© 2026 ONEfold. All Rights Reserved."
+        }
+    },
+    "Policies": {
+        "privacy": {
+            "title": "개인정보 처리방침",
+            "content": "ONEfold는 사용자의 개인정보를 매우 소중하게 생각하며, 서버에 어떠한 개인 데이터도 저장하지 않습니다. 모든 자료는 오직 사용자의 기기에만 보관됩니다."
+        },
+        "terms": {
+            "title": "이용약관",
+            "content": "ONEfold 앱과 웹사이트의 이용에 관한 기본적인 약관입니다. 본 서비스는 개인적인 용도로만 사용 가능합니다."
+        },
+        "support": {
+            "title": "고객지원 및 문의",
+            "content": "앱 사용 중 불편한 점이나 제안 사항이 있으시면 이메일로 연락주세요.",
+            "emailTitle": "이메일 문의",
+            "email": "onefold.app.contact@gmail.com"
+        }
+    },
+    "Nav": {
+        "features": "기능",
+        "guide": "가이드",
+        "download": "다운로드 v1.6.1"
+    }
+}

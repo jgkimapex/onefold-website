@@ -1,0 +1,146 @@
+{
+    "Index": {
+        "title": "ONEfold - Organize Your Files in One Folder",
+        "description": "Collect documents, links, maps and notes in one place.",
+        "hero": {
+            "headline": "All Files in One Folder",
+            "subtext": "Organize scattered files for travel, projects, and daily schedules in one place.",
+            "downloadAndroid": "Google Play",
+            "downloadIos": "App Store (Coming Soon)"
+        },
+        "overview": {
+            "title": "What is ONEfold?",
+            "description": "ONEfold is an app that manages all files related to a specific topic by gathering them into a single folder.",
+            "supportFiles": "Supported: Docs, Images, Videos, Audio, Links, Maps, Memos, etc."
+        },
+        "features": {
+            "title": "Key Features",
+            "items": {
+                "files": {
+                    "title": "File Organization",
+                    "desc": "Organize various files as visual cards"
+                },
+                "links": {
+                    "title": "Web Links",
+                    "desc": "Save web pages and YouTube links"
+                },
+                "maps": {
+                    "title": "Map Locations",
+                    "desc": "Supports Google, Naver, Kakao, T Map"
+                },
+                "notes": {
+                    "title": "Notes & Voice",
+                    "desc": "Text memos and voice recordings"
+                },
+                "camera": {
+                    "title": "Camera & Scan",
+                    "desc": "Direct photography and document scanning"
+                }
+            }
+        },
+        "useCases": {
+            "title": "Your Daily Life with ONEfold",
+            "items": {
+                "travel": {
+                    "title": "International Travel",
+                    "desc": "Passport, visa, hotel bookings, and maps in one place.",
+                    "list": [
+                        "Passport & Visa",
+                        "Hotel/Car Bookings",
+                        "Itinerary PDF",
+                        "Map Routes"
+                    ]
+                },
+                "project": {
+                    "title": "Project Management",
+                    "desc": "Plans, sheets, decks, and links in a single folder.",
+                    "list": [
+                        "Plans & Reports",
+                        "Progress Sheets",
+                        "Presentation Decks",
+                        "Reference Links"
+                    ]
+                },
+                "daily": {
+                    "title": "Daily Schedule",
+                    "desc": "Today's notes, meeting maps, and files organized.",
+                    "list": [
+                        "Daily Memos",
+                        "Meeting Locations",
+                        "Reference Files",
+                        "Voice Notes"
+                    ]
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "How it Works",
+            "step1": {
+                "title": "Find",
+                "desc": "Open the file or link you want to save."
+            },
+            "step2": {
+                "title": "Share",
+                "desc": "Tap the Share button."
+            },
+            "step3": {
+                "title": "Save",
+                "desc": "Select ONEfold to store it."
+            }
+        },
+        "privacy": {
+            "title": "Your Data Stays on Your Phone",
+            "desc": "ONEfold does not store your files on any server. All data is kept securely inside your own smartphone.",
+            "note": "Please note that internet links and map features require an external connection."
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "items": [
+                {
+                    "q": "Is ONEfold free?",
+                    "a": "Yes, all features are currently free to use."
+                },
+                {
+                    "q": "Can I use it offline?",
+                    "a": "Yes, local files and notes are accessible offline. Web links and maps require an internet connection."
+                },
+                {
+                    "q": "Where are my files stored?",
+                    "a": "Files are stored only on your local device and are never uploaded to any external servers."
+                }
+            ]
+        },
+        "contact": {
+            "title": "Start using ONEfold today",
+            "button": "Google Play",
+            "support": "Contact Us"
+        },
+        "footer": {
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service",
+            "support": "Support",
+            "copyright": "© 2026 ONEfold. All Rights Reserved."
+        }
+    },
+    "Policies": {
+        "privacy": {
+            "title": "Privacy Policy",
+            "content": "ONEfold values your privacy. We do not store any personal data on our servers. All files and notes remain on your local device."
+        },
+        "terms": {
+            "title": "Terms of Service",
+            "content": "Basic terms for using the ONEfold app and website. This service is provided for personal use only."
+        },
+        "support": {
+            "title": "Support & Contact",
+            "content": "If you have any questions or suggestions, please contact us via email.",
+            "emailTitle": "Email Support",
+            "email": "onefold.app.contact@gmail.com"
+        }
+    },
+    "Nav": {
+        "features": "Features",
+        "guide": "User Guide",
+        "download": "Download v1.6.1"
+    }
+}
