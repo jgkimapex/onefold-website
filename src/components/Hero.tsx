@@ -9,8 +9,8 @@ export default function Hero() {
     const t = useTranslations('Index.hero');
 
     return (
-        <section className="min-h-screen flex flex-col items-center justify-center pt-24 pb-12 px-6 text-center overflow-hidden">
-            <div className="max-w-4xl mx-auto flex flex-col gap-12 items-center">
+        <section className="min-h-screen flex flex-col items-center justify-center pt-20 pb-10 px-6 text-center overflow-hidden">
+            <div className="max-w-4xl mx-auto flex flex-col gap-6 md:gap-12 items-center w-full">
 
                 {/* 1. Problem Question */}
                 <motion.div
@@ -19,12 +19,12 @@ export default function Hero() {
                     transition={{ duration: 0.6 }}
                     className="flex flex-col items-center"
                 >
-                    <span className="text-2xl md:text-3xl text-slate-500 font-medium tracking-tight bg-slate-100 px-8 py-3 rounded-full mb-6 inline-block [word-break:keep-all]">
+                    <span className="text-lg md:text-3xl text-slate-500 font-medium tracking-tight bg-slate-100 px-6 py-2 md:px-8 md:py-3 rounded-full mb-3 md:mb-6 inline-block [word-break:keep-all]">
                         {t('problem')}
                     </span>
 
                     {/* 2. Main Solution Headline */}
-                    <h1 className="font-outfit text-3xl md:text-5xl font-bold text-text-main leading-tight tracking-tight whitespace-pre-line [word-break:keep-all]">
+                    <h1 className="font-outfit text-2xl md:text-5xl font-bold text-text-main leading-[1.2] tracking-tight whitespace-pre-line [word-break:keep-all]">
                         {t('headline')}
                     </h1>
                 </motion.div>
@@ -34,7 +34,7 @@ export default function Hero() {
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
-                    className="relative w-full max-w-sm md:max-w-lg aspect-square"
+                    className="relative w-full max-w-[280px] md:max-w-lg aspect-square"
                 >
                     <div className="relative w-full h-full">
                         <Image
@@ -54,9 +54,9 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.4 }}
-                    className="space-y-4"
+                    className="space-y-2 md:space-y-4"
                 >
-                    <div className="text-2xl md:text-3xl text-slate-600 leading-relaxed font-medium whitespace-pre-line [word-break:keep-all]">
+                    <div className="text-lg md:text-3xl text-slate-600 leading-[1.4] font-medium whitespace-pre-line [word-break:keep-all]">
                         {t('description')}
                     </div>
                 </motion.div>
@@ -66,22 +66,22 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.6 }}
-                    className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto"
+                    className="flex flex-col sm:flex-row items-center gap-3 md:gap-4 w-full sm:w-auto"
                 >
-                    <button className="w-full sm:w-auto flex items-center justify-center gap-3 bg-primary text-white px-8 py-4 rounded-2xl font-bold text-xl hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20 active:scale-95">
+                    <button className="w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3 bg-primary text-white px-6 py-3 md:px-8 md:py-4 rounded-xl md:rounded-2xl font-bold text-lg md:text-xl hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20 active:scale-95">
                         <Play className="w-5 h-5 fill-current" />
                         {t('downloadAndroid')}
                     </button>
                     {/* Disabled App Store Button */}
-                    <div className="w-full sm:w-auto select-none">
+                    <div className="w-full sm:w-auto select-none flex flex-col items-center">
                         <button
                             disabled
-                            className="w-full sm:w-auto flex items-center justify-center gap-3 bg-slate-300 text-white px-8 py-4 rounded-2xl font-bold text-xl opacity-60 grayscale cursor-not-allowed"
+                            className="w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3 bg-slate-300 text-white px-6 py-3 md:px-8 md:py-4 rounded-xl md:rounded-2xl font-bold text-lg md:text-xl opacity-60 grayscale cursor-not-allowed"
                         >
                             <Smartphone className="w-5 h-5" />
                             {t('downloadIos')}
                         </button>
-                        <p className="text-xs text-slate-400 mt-2 font-medium">Coming Soon</p>
+                        <p className="hidden md:block text-xs text-slate-400 mt-2 font-medium">Coming Soon</p>
                     </div>
                 </motion.div>
 
