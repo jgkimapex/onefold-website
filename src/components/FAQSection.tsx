@@ -11,17 +11,19 @@ export default function FAQSection() {
     const [openIndex, setOpenIndex] = useState<number | null>(0);
 
     return (
-        <section className="h-screen snap-start snap-always flex flex-col items-center justify-center pt-8 md:pt-20 pb-2 md:pb-8 px-6 text-center overflow-hidden bg-slate-50/50">
-            <div className="max-w-4xl mx-auto flex flex-col gap-1 md:gap-6 items-center w-full h-full justify-between py-0.5 md:py-4">
+        <section className="h-screen snap-start snap-always flex flex-col items-center justify-center pt-20 md:pt-24 pb-4 md:pb-8 px-6 text-center overflow-hidden bg-slate-50/50">
+            <div className="max-w-4xl mx-auto flex flex-col gap-2 md:gap-8 items-center w-full h-full justify-between py-1 md:py-4">
 
-                <motion.h2
+                <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="font-outfit text-xl md:text-5xl font-bold text-text-main shrink-0"
+                    className="shrink-0"
                 >
-                    {t('title')}
-                </motion.h2>
+                    <h2 className="font-outfit text-xl md:text-5xl font-bold text-text-main">
+                        {t('title')}
+                    </h2>
+                </motion.div>
 
                 <div className="w-full space-y-1 md:space-y-3 flex-1 overflow-y-auto pr-1 scrollbar-hide py-0.5">
                     {faqItems.map((item: any, index: number) => (

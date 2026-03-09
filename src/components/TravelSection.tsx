@@ -10,7 +10,7 @@ export default function TravelSection() {
     const h = useTranslations('Index.hero'); // For buttons strings
 
     return (
-        <section className="h-screen snap-start snap-always flex flex-col items-center justify-center pt-12 md:pt-20 pb-4 md:pb-8 px-6 text-center overflow-hidden bg-slate-50/50">
+        <section className="h-screen snap-start snap-always flex flex-col items-center justify-center pt-20 md:pt-24 pb-4 md:pb-8 px-6 text-center overflow-hidden bg-slate-50/50">
             <div className="max-w-4xl mx-auto flex flex-col gap-2 md:gap-8 items-center w-full h-full justify-between py-1 md:py-4">
 
                 {/* 1. Problem Question */}
