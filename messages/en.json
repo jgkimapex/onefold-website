@@ -9,6 +9,11 @@
             "downloadAndroid": "Google Play",
             "downloadIos": "App Store"
         },
+        "travel": {
+            "problem": "Have you ever been flustered because you couldn't find necessary documents during your trip?",
+            "headline": "All Travel Documents\nin One Folder",
+            "description": "Access your documents immediately at immigration and hotels,\neven without an internet connection."
+        },
         "overview": {
             "title": "What is ONEfold?",
             "description": "ONEfold is an app that manages all files related to a specific topic by gathering them into a single folder.",
