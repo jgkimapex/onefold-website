@@ -3,21 +3,26 @@
         "title": "ONEfold - Organize Your Files in One Folder",
         "description": "Collect documents, links, maps and notes in one place.",
         "hero": {
-            "problem": "“Isn't your information scattered everywhere?”",
-            "headline": "All Different Formats of Information\nin One Folder",
-            "description": "Collect various documents, notes, PDFs, photos,\nmaps, and links in ONEfold and access them immediately.",
+            "problem": "Hard to find saved info?",
+            "headline": "Gather Everything\nin One Folder",
+            "description": "Memos, PDFs, photos, maps, and links\ngather them all into ONEfold.",
             "downloadAndroid": "Google Play",
             "downloadIos": "App Store"
         },
         "travel": {
-            "problem": "Have you ever been flustered because you couldn't find necessary documents during your trip?",
+            "problem": "Lost documents while traveling?",
             "headline": "All Travel Documents\nin One Folder",
-            "description": "Access your documents immediately at immigration and hotels,\neven without an internet connection."
+            "description": "Access documents at immigration/hotels\neven without internet."
         },
         "organize": {
-            "problem": "Do you want to organize your materials by topic or project?",
-            "headline": "Create folders by topic and\nmanage everything in one place.",
-            "description": "ONEfold helps you create multiple topic-specific folders and\nneatly organizes your files and links into visual cards."
+            "problem": "Need to organize by topic?",
+            "headline": "Create Topic Folders\nManage everything in one place.",
+            "description": "Create folders and organize files/links\ninto clean visual cards."
+        },
+        "discovery": {
+            "problem": "Tired of manual saving?",
+            "headline": "Save documents instantly\nthe moment you find them.",
+            "description": "Use the share feature to bring any\ninfo directly into ONEfold."
         },
         "overview": {
             "title": "What is ONEfold?",

@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import TravelSection from "@/components/TravelSection";
 import OrganizeSection from "@/components/OrganizeSection";
+import DiscoverySection from "@/components/DiscoverySection";
 import AppOverview from "@/components/AppOverview";
 import Features from "@/components/Features";
 import UseCases from "@/components/UseCases";
@@ -22,10 +23,11 @@ export default async function Home({
     <div className="min-h-screen bg-background selection:bg-primary/20 flex flex-col">
       <Header />
 
-      <main className="flex-grow">
+      <main className="flex-grow h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
         <Hero />
         <TravelSection />
         <OrganizeSection />
+        <DiscoverySection />
         <AppOverview />
         <Features />
         <UseCases />
