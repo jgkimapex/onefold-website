@@ -24,6 +24,11 @@
             "headline": "Save documents instantly\nthe moment you find them.",
             "description": "Use the share feature to bring any\ninfo directly into ONEfold."
         },
+        "cards": {
+            "problem": "What do folders and cards look like?",
+            "headline": "Select a folder to see all files\nneatly organized into visual cards.",
+            "description": "Cards show titles, thumbnails, and notes.\nIcons at the bottom identify the file type."
+        },
         "overview": {
             "title": "What is ONEfold?",
             "description": "ONEfold is an app that manages all files related to a specific topic by gathering them into a single folder.",

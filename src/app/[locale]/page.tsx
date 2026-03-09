@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import TravelSection from "@/components/TravelSection";
 import OrganizeSection from "@/components/OrganizeSection";
 import DiscoverySection from "@/components/DiscoverySection";
+import CardsSection from "@/components/CardsSection";
 import AppOverview from "@/components/AppOverview";
 import Features from "@/components/Features";
 import UseCases from "@/components/UseCases";
@@ -28,6 +29,7 @@ export default async function Home({
         <TravelSection />
         <OrganizeSection />
         <DiscoverySection />
+        <CardsSection />
         <AppOverview />
         <Features />
         <UseCases />
