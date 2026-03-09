@@ -10,7 +10,7 @@ export default function CardsSection() {
     const h = useTranslations('Index.hero'); // For buttons strings
 
     return (
-        <section className="h-screen snap-start snap-always flex flex-col items-center justify-center pt-28 pb-10 px-6 text-center overflow-hidden">
+        <section className="h-screen snap-start snap-always flex flex-col items-center justify-center pt-32 pb-12 px-6 text-center overflow-hidden">
             <div className="max-w-4xl mx-auto flex flex-col gap-6 md:gap-12 items-center w-full">
 
                 {/* 1. Problem Question */}
