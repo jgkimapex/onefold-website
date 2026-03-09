@@ -32,7 +32,7 @@
         "privacy": {
             "problem": "Is my data safe?",
             "headline": "We respect your privacy.",
-            "description": "All data stays on your phone.\nNever uploaded to servers, always accessible offline."
+            "description": "All data is stored on your device. We do not collect or upload your data to servers. You can access it anytime, even without the internet."
         },
         "additionalFeatures": {
             "title": "Other Convenient Features",
@@ -105,7 +105,7 @@
         },
         "terms": {
             "title": "Terms of Service",
-            "content": "Basic terms for using the ONEfold app and website. This service is provided for personal use only."
+            "content": "These Terms of Service govern the rights, obligations, and responsibilities between the user and the App provider regarding the use of [ONEfold] (hereinafter referred to as the \"App\"). By downloading or using the App, you are deemed to have agreed to these terms.\n\n1. Provision of Service\nThis App provides mobile application services to users. The content of the service is provided according to the App's functions and purposes.\n\n2. Use of Service\nUsers must use the App in compliance with relevant laws and these terms. The following acts are prohibited:\n- Acts that interfere with App services or place excessive load on the system\n- Acts that interfere with the normal operation of the App\n- Using the App in a way that violates laws and regulations\n\n3. Changes to and Suspension of Service\nThe App provider may change or suspend the content, function, or method of providing the service. In case of service changes or suspensions, notice may be provided through the App or related pages.\n\n4. Limitation of Liability\nThe App provider is not responsible for the following:\n- Service use problems arising from the user's device environment or network issues\n- Damages caused by user negligence\n- Indirect or unpredictable damages that may arise from using the App\n\n5. Intellectual Property Rights\nRights to the App and the content, design, code, etc., included in the App belong to the App provider. Users may not reproduce, modify, or distribute them without the prior permission of the App provider.\n\n6. Changes to Terms\nThese terms may be changed as necessary, and changes will be notified through the App or related pages.\n\n7. Inquiry\nFor inquiries related to the use of the App, please contact the email below.\nEmail: jgkimapex@gmail.com\n\nEffective Date: 2026.03.01"
         },
         "support": {
             "title": "Support & Contact",

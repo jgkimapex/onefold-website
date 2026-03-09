@@ -10,58 +10,96 @@ export default function FeatureGridSection() {
     const featureItems = t.raw('items');
 
     return (
-        <section className="h-screen snap-start snap-always flex flex-col items-center justify-center pt-24 pb-12 px-6 text-center overflow-hidden">
-            <div className="max-w-4xl mx-auto flex flex-col gap-6 md:gap-10 items-center w-full h-full max-h-full justify-between py-4">
+        <section className="h-screen snap-start snap-always flex flex-col items-center justify-center pt-6 md:pt-20 pb-2 md:pb-8 px-6 text-center overflow-hidden bg-white">
+            <div className="max-w-5xl mx-auto flex flex-col gap-1 md:gap-6 items-center w-full h-full justify-between py-0.5 md:py-4">
 
                 {/* Title Section */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 0.6 }}
                     className="shrink-0"
                 >
-                    <h2 className="font-outfit text-3xl md:text-5xl font-bold text-text-main leading-[1.2] tracking-tight [word-break:keep-all]">
+                    <h2 className="font-outfit text-xl md:text-5xl font-bold text-text-main [word-break:keep-all]">
                         {t('title')}
                     </h2>
                 </motion.div>
 
-                {/* Illustration Section */}
-                <motion.div
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.8, delay: 0.2 }}
-                    className="relative w-full max-w-[320px] md:max-w-2xl aspect-[1.4/1] md:aspect-[1.8/1] shrink-1"
-                >
-                    <div className="relative w-full h-full drop-shadow-xl">
+                {/* Main Content Area: Image with Floating Text */}
+                <div className="relative w-full flex-1 flex flex-col items-center justify-center min-h-0">
+
+                    {/* Background Plate */}
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        viewport={{ once: true }}
+                        className="relative w-full max-w-[340px] md:max-w-xl aspect-[1.4/1] md:aspect-[1.8/1] flex items-center justify-center"
+                    >
                         <Image
                             src="/features-grid.png"
-                            alt="Additional Features"
+                            alt="Additional Features Grid"
                             fill
-                            className="object-contain"
+                            className="object-contain drop-shadow-2xl"
                             priority
                         />
-                    </div>
-                </motion.div>
 
-                {/* Features Grid */}
-                <div className="grid grid-cols-2 gap-4 md:gap-8 w-full shrink-0">
+                        {/* Desktop: Quadrant Labels */}
+                        <div className="hidden md:block absolute inset-0">
+                            {/* Top Left: Memo */}
+                            <motion.div
+                                initial={{ opacity: 0, x: -20 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                className="absolute top-[10%] left-[-15%] text-right w-48"
+                            >
+                                <span className="block text-xl font-bold text-primary mb-1">{featureItems[0].title}</span>
+                                <p className="text-sm text-slate-500 font-medium">{featureItems[0].desc}</p>
+                            </motion.div>
+
+                            {/* Top Right: Map */}
+                            <motion.div
+                                initial={{ opacity: 0, x: 20 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                className="absolute top-[10%] right-[-15%] text-left w-48"
+                            >
+                                <span className="block text-xl font-bold text-primary mb-1">{featureItems[1].title}</span>
+                                <p className="text-sm text-slate-500 font-medium">{featureItems[1].desc}</p>
+                            </motion.div>
+
+                            {/* Bottom Left: Camera */}
+                            <motion.div
+                                initial={{ opacity: 0, x: -20 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                className="absolute bottom-[10%] left-[-15%] text-right w-48"
+                            >
+                                <span className="block text-xl font-bold text-primary mb-1">{featureItems[2].title}</span>
+                                <p className="text-sm text-slate-500 font-medium">{featureItems[2].desc}</p>
+                            </motion.div>
+
+                            {/* Bottom Right: D&D */}
+                            <motion.div
+                                initial={{ opacity: 0, x: 20 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                className="absolute bottom-[10%] right-[-15%] text-left w-48"
+                            >
+                                <span className="block text-xl font-bold text-primary mb-1">{featureItems[3].title}</span>
+                                <p className="text-sm text-slate-500 font-medium">{featureItems[3].desc}</p>
+                            </motion.div>
+                        </div>
+                    </motion.div>
+                </div>
+
+                {/* Mobile: Simple Tight Grid */}
+                <div className="grid md:hidden grid-cols-2 gap-1.5 w-full shrink-0 pb-1">
                     {featureItems.map((item: any, index: number) => (
                         <motion.div
                             key={index}
                             initial={{ opacity: 0, y: 10 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
-                            transition={{ duration: 0.5, delay: 0.3 + index * 0.1 }}
-                            className="flex flex-col items-center gap-1 md:gap-2 p-3 md:p-6 bg-slate-50 rounded-2xl md:rounded-3xl border border-slate-100 hover:shadow-lg transition-shadow"
+                            className="bg-slate-50/50 p-2 rounded-xl border border-slate-100 flex flex-col items-center"
                         >
-                            <span className="font-outfit text-lg md:text-2xl font-bold text-primary">
-                                {item.title}
-                            </span>
-                            <p className="text-sm md:text-lg text-slate-600 leading-tight [word-break:keep-all]">
-                                {item.desc}
-                            </p>
+                            <span className="text-sm font-bold text-primary mb-0.5">{item.title}</span>
+                            <p className="text-[10px] text-slate-500 leading-tight font-medium [word-break:keep-all]">{item.desc}</p>
                         </motion.div>
                     ))}
                 </div>
