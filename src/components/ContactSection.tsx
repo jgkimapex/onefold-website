@@ -1,0 +1,105 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+import { motion } from "framer-motion";
+import { Send, CheckCircle2 } from "lucide-react";
+import { useState } from "react";
+import Link from "next/link";
+
+export default function ContactSection() {
+    const t = useTranslations('Index.contact');
+    const f = useTranslations('Index.footer');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [submitted, setSubmitted] = useState(false);
+
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        // Here we would ideally call an API, but for now we'll simulate a mailto trigger or just show success
+        setSubmitted(true);
+        window.location.href = `mailto:jgkimapex@gmail.com?subject=ONEfold Feedback&body=${encodeURIComponent(message)}%0A%0AFrom: ${email}`;
+    };
+
+    return (
+        <section className="h-screen snap-start snap-always flex flex-col items-center justify-center pt-24 pb-12 px-6 text-center overflow-hidden bg-white">
+            <div className="max-w-2xl mx-auto flex flex-col gap-6 md:gap-10 items-center w-full h-full max-h-full justify-between py-8">
+
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    className="space-y-4 shrink-0"
+                >
+                    <h2 className="font-outfit text-3xl md:text-5xl font-bold text-text-main">
+                        {t('title')}
+                    </h2>
+                </motion.div>
+
+                {!submitted ? (
+                    <motion.form
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        viewport={{ once: true }}
+                        onSubmit={handleSubmit}
+                        className="w-full flex flex-col gap-4 md:gap-6 bg-slate-50 p-6 md:p-10 rounded-[2rem] border border-slate-100 shadow-sm grow-1 justify-center"
+                    >
+                        <div className="space-y-2 text-left">
+                            <label className="text-sm font-bold text-slate-500 ml-2">Email</label>
+                            <input
+                                required
+                                type="email"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                                placeholder={t('emailPlaceholder')}
+                                className="w-full px-5 py-3 md:py-4 rounded-xl border border-slate-200 focus:border-primary outline-none transition-all text-slate-800"
+                            />
+                        </div>
+                        <div className="space-y-2 text-left grow-1 flex flex-col">
+                            <label className="text-sm font-bold text-slate-500 ml-2">Message</label>
+                            <textarea
+                                required
+                                value={message}
+                                onChange={(e) => setMessage(e.target.value)}
+                                placeholder={t('messagePlaceholder')}
+                                className="w-full px-5 py-3 md:py-4 rounded-xl border border-slate-200 focus:border-primary outline-none transition-all text-slate-800 grow-1 min-h-[120px] resize-none"
+                            ></textarea>
+                        </div>
+                        <button
+                            type="submit"
+                            className="w-full flex items-center justify-center gap-3 bg-primary text-white py-4 md:py-5 rounded-xl md:rounded-2xl font-bold text-lg md:text-xl hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20 active:scale-95 shrink-0"
+                        >
+                            <Send className="w-6 h-6" />
+                            {t('submit')}
+                        </button>
+                    </motion.form>
+                ) : (
+                    <motion.div
+                        initial={{ scale: 0.9, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        className="flex flex-col items-center gap-6 py-12"
+                    >
+                        <CheckCircle2 className="w-20 h-20 text-green-500" />
+                        <h3 className="text-2xl md:text-3xl font-bold text-slate-800 [word-break:keep-all]">
+                            {t('success')}
+                        </h3>
+                    </motion.div>
+                )}
+
+                {/* Footer Area with Privacy Link */}
+                <div className="shrink-0 space-y-6 pt-8 border-t border-slate-100 w-full">
+                    <div className="flex flex-wrap items-center justify-center gap-6 text-sm md:text-base font-bold text-slate-500">
+                        <Link href="/privacy" className="hover:text-primary transition-colors">
+                            {f('privacy')}
+                        </Link>
+                        <span className="hover:text-primary cursor-pointer">{f('terms')}</span>
+                        <span className="hover:text-primary cursor-pointer">{f('support')}</span>
+                    </div>
+                    <p className="text-slate-400 text-sm">
+                        {f('copyright')}
+                    </p>
+                </div>
+
+            </div>
+        </section>
+    );
+}

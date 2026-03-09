@@ -29,117 +29,67 @@
             "headline": "Select a folder to see all files\nneatly organized into visual cards.",
             "description": "Cards show titles, thumbnails, and notes.\nIcons at the bottom identify the file type."
         },
-        "privacyHero": {
+        "privacy": {
             "problem": "Is my data safe?",
             "headline": "We respect your privacy.",
             "description": "All data stays on your phone.\nNever uploaded to servers, always accessible offline."
         },
-        "overview": {
-            "title": "What is ONEfold?",
-            "description": "ONEfold is an app that manages all files related to a specific topic by gathering them into a single folder.",
-            "supportFiles": "Supported: Docs, Images, Videos, Audio, Links, Maps, Memos, etc."
-        },
-        "features": {
-            "title": "Key Features",
-            "items": {
-                "files": {
-                    "title": "File Organization",
-                    "desc": "Organize various files as visual cards"
-                },
-                "links": {
-                    "title": "Web Links",
-                    "desc": "Save web pages and YouTube links"
-                },
-                "maps": {
-                    "title": "Map Locations",
-                    "desc": "Supports Google, Naver, Kakao, T Map"
-                },
-                "notes": {
-                    "title": "Notes & Voice",
-                    "desc": "Text memos and voice recordings"
-                },
-                "camera": {
-                    "title": "Camera & Scan",
-                    "desc": "Direct photography and document scanning"
-                }
-            }
-        },
-        "useCases": {
-            "title": "Your Daily Life with ONEfold",
-            "items": {
-                "travel": {
-                    "title": "International Travel",
-                    "desc": "Passport, visa, hotel bookings, and maps in one place.",
-                    "list": [
-                        "Passport & Visa",
-                        "Hotel/Car Bookings",
-                        "Itinerary PDF",
-                        "Map Routes"
-                    ]
-                },
-                "project": {
-                    "title": "Project Management",
-                    "desc": "Plans, sheets, decks, and links in a single folder.",
-                    "list": [
-                        "Plans & Reports",
-                        "Progress Sheets",
-                        "Presentation Decks",
-                        "Reference Links"
-                    ]
-                },
-                "daily": {
-                    "title": "Daily Schedule",
-                    "desc": "Today's notes, meeting maps, and files organized.",
-                    "list": [
-                        "Daily Memos",
-                        "Meeting Locations",
-                        "Reference Files",
-                        "Voice Notes"
-                    ]
-                }
-            }
-        },
-        "howItWorks": {
-            "title": "How it Works",
-            "step1": {
-                "title": "Find",
-                "desc": "Open the file or link you want to save."
-            },
-            "step2": {
-                "title": "Share",
-                "desc": "Tap the Share button."
-            },
-            "step3": {
-                "title": "Save",
-                "desc": "Select ONEfold to store it."
-            }
-        },
-        "privacy": {
-            "title": "Your Data Stays on Your Phone",
-            "desc": "ONEfold does not store your files on any server. All data is kept securely inside your own smartphone.",
-            "note": "Please note that internet links and map features require an external connection."
-        },
-        "faq": {
-            "title": "Frequently Asked Questions",
+        "additionalFeatures": {
+            "title": "Other Convenient Features",
             "items": [
                 {
-                    "q": "Is ONEfold free?",
-                    "a": "Yes, all features are currently free to use."
+                    "title": "Memos & Voice",
+                    "desc": "Create, edit memos and attach voice notes."
                 },
                 {
-                    "q": "Can I use it offline?",
-                    "a": "Yes, local files and notes are accessible offline. Web links and maps require an internet connection."
+                    "title": "Maps & Routes",
+                    "desc": "Store origin, destination, and full route info."
+                },
+                {
+                    "title": "Photo & Scan",
+                    "desc": "Capture photos/videos and scan documents."
+                },
+                {
+                    "title": "Drag & Drop",
+                    "desc": "Freely reorder cards with simple drag-and-drop."
+                }
+            ]
+        },
+        "faqSection": {
+            "title": "Frequently Asked Questions (FAQ)",
+            "items": [
+                {
+                    "q": "Is ONEfold a free app?",
+                    "a": "Yes, ONEfold provides all core features for free. You can create up to 5 folders and 20 cards per folder for free. More powerful professional features may be added in the future."
                 },
                 {
                     "q": "Where are my files stored?",
-                    "a": "Files are stored only on your local device and are never uploaded to any external servers."
+                    "a": "They are stored locally on your device and are never sent to external servers."
+                },
+                {
+                    "q": "Can I use it without internet?",
+                    "a": "Yes, all features work offline. However, an internet connection is required to view saved web links."
+                },
+                {
+                    "q": "What types of files can be stored in ONEfold?",
+                    "a": "Word, HWP, Excel, PowerPoint, PDF, Text, Images, Audio, Video, various Web links, and Map links."
+                },
+                {
+                    "q": "What happens to my data if I delete a card or the app?",
+                    "a": "Since it's local storage, deleting the app will also delete all stored data."
+                },
+                {
+                    "q": "Is there a storage limit?",
+                    "a": "You can store as much as your smartphone's available storage space allows."
                 }
             ]
         },
         "contact": {
-            "title": "Start using ONEfold today",
-            "button": "Google Play",
-            "support": "Contact Us"
+            "title": "Feedback / Developer Contact",
+            "emailPlaceholder": "Enter your email address",
+            "messagePlaceholder": "Leave your questions or feedback here",
+            "submit": "Submit",
+            "success": "Thank you! Your feedback has been sent to jgkimapex@gmail.com."
         },
         "footer": {
             "privacy": "Privacy Policy",
@@ -151,7 +101,7 @@
     "Policies": {
         "privacy": {
             "title": "Privacy Policy",
-            "content": "ONEfold values your privacy. We do not store any personal data on our servers. All files and notes remain on your local device."
+            "content": "[ONEfold] (hereinafter referred to as the \"App\") values your personal information and complies with relevant laws and regulations. This Privacy Policy explains what information the App collects and how it is used.\n\n1. Collection of Personal Information\nThis App does not provide membership registration or login functions, and does not collect personal information during the general use of the App.\n\n2. Information Collected Upon Inquiry\nWhen a user sends an inquiry via email, the following information may be collected to respond to the inquiry:\n- Email address\n- Content of the inquiry\nThis information is used only for the purpose of responding to inquiries.\n\n3. Purpose of Using Personal Information\nThe collected email address and inquiry content are used only for the following purposes:\n- Providing answers to user inquiries\n- Customer support and troubleshooting\n\n4. Period of Retention of Personal Information\nInformation collected for responding to inquiries may be stored for a necessary period after the inquiry is processed, and then safely deleted.\n\n5. Provision of Personal Information to Third Parties\nThis App does not provide or sell your personal information to third parties.\n\n6. Protection of Personal Information\nThe App applies reasonable security measures to protect personal information.\n\n7. Changes to the Privacy Policy\nThis Privacy Policy may be changed as necessary, and any changes will be notified through this page.\n\n8. Inquiry\nFor inquiries related to personal information, please contact the email below.\nEmail: jgkimapex@gmail.com\n\nEffective Date: 2026.03.01"
         },
         "terms": {
             "title": "Terms of Service",
@@ -161,7 +111,7 @@
             "title": "Support & Contact",
             "content": "If you have any questions or suggestions, please contact us via email.",
             "emailTitle": "Email Support",
-            "email": "onefold.app.contact@gmail.com"
+            "email": "jgkimapex@gmail.com"
         }
     },
     "Nav": {

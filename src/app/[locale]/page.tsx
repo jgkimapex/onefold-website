@@ -5,22 +5,11 @@ import OrganizeSection from "@/components/OrganizeSection";
 import DiscoverySection from "@/components/DiscoverySection";
 import CardsSection from "@/components/CardsSection";
 import PrivacySection from "@/components/PrivacySection";
-import AppOverview from "@/components/AppOverview";
-import Features from "@/components/Features";
-import UseCases from "@/components/UseCases";
-import HowItWorks from "@/components/HowItWorks";
-import Privacy from "@/components/Privacy";
-import FAQ from "@/components/FAQ";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+import FeatureGridSection from "@/components/FeatureGridSection";
+import FAQSection from "@/components/FAQSection";
+import ContactSection from "@/components/ContactSection";
 
-export default async function Home({
-  params
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params;
-
+export default async function Home() {
   return (
     <div className="min-h-screen bg-background selection:bg-primary/20 flex flex-col">
       <Header />
@@ -32,16 +21,10 @@ export default async function Home({
         <DiscoverySection />
         <CardsSection />
         <PrivacySection />
-        <AppOverview />
-        <Features />
-        <UseCases />
-        <HowItWorks />
-        <Privacy />
-        <FAQ />
-        <Contact />
+        <FeatureGridSection />
+        <FAQSection />
+        <ContactSection />
       </main>
-
-      <Footer />
     </div>
   );
 }
