@@ -3,10 +3,11 @@
         "title": "ONEfold - 모든 파일을 하나의 폴더에",
         "description": "여행, 프로젝트, 하루 일정까지 흩어진 파일을 한 곳에 정리하세요.",
         "hero": {
-            "headline": "모든 파일을 하나의 폴더에",
-            "subtext": "여행, 프로젝트, 하루 일정까지 흩어진 파일을 한 곳에 정리하세요.",
+            "problem": "“파일과 정보가 여기저기 흩어져 있지 않나요?”",
+            "headline": "서로 다른 포멧의 정보를\n하나의 폴더에",
+            "description": "각종문서, 메모, PDF, 사진, 지도, 링크 등을\n원폴드에 모아놓고 바로 꺼내 볼수 있습니다.",
             "downloadAndroid": "Google Play",
-            "downloadIos": "App Store (Coming Soon)"
+            "downloadIos": "App Store"
         },
         "overview": {
             "title": "ONEfold는 무엇인가?",

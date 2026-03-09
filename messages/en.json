@@ -3,10 +3,11 @@
         "title": "ONEfold - Organize Your Files in One Folder",
         "description": "Collect documents, links, maps and notes in one place.",
         "hero": {
-            "headline": "All Files in One Folder",
-            "subtext": "Organize scattered files for travel, projects, and daily schedules in one place.",
+            "problem": "“Isn't your information scattered everywhere?”",
+            "headline": "All Different Formats of Information\nin One Folder",
+            "description": "Collect various documents, notes, PDFs, photos,\nmaps, and links in ONEfold and access them immediately.",
             "downloadAndroid": "Google Play",
-            "downloadIos": "App Store (Coming Soon)"
+            "downloadIos": "App Store"
         },
         "overview": {
             "title": "What is ONEfold?",
