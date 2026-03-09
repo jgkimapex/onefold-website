@@ -70,7 +70,7 @@ export default function TravelSection() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: 0.6 }}
-                    className="flex flex-col sm:flex-row items-center gap-3 md:gap-4 w-full sm:w-auto"
+                    className="flex flex-col sm:flex-row items-center sm:items-start gap-3 md:gap-4 w-full sm:w-auto"
                 >
                     <button className="w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3 bg-primary text-white px-6 py-3 md:px-8 md:py-4 rounded-xl md:rounded-2xl font-bold text-lg md:text-xl hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20 active:scale-95">
                         <Play className="w-5 h-5 fill-current" />

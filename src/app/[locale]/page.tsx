@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import TravelSection from "@/components/TravelSection";
+import OrganizeSection from "@/components/OrganizeSection";
 import AppOverview from "@/components/AppOverview";
 import Features from "@/components/Features";
 import UseCases from "@/components/UseCases";
@@ -24,6 +25,7 @@ export default async function Home({
       <main className="flex-grow">
         <Hero />
         <TravelSection />
+        <OrganizeSection />
         <AppOverview />
         <Features />
         <UseCases />

@@ -5,8 +5,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Smartphone, Play } from "lucide-react";
 
-export default function Hero() {
-    const t = useTranslations('Index.hero');
+export default function OrganizeSection() {
+    const t = useTranslations('Index.organize');
+    const h = useTranslations('Index.hero'); // For buttons strings
 
     return (
         <section className="min-h-screen flex flex-col items-center justify-center pt-20 pb-10 px-6 text-center overflow-hidden">
@@ -15,7 +16,8 @@ export default function Hero() {
                 {/* 1. Problem Question */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                     className="flex flex-col items-center"
                 >
@@ -24,35 +26,36 @@ export default function Hero() {
                     </span>
 
                     {/* 2. Main Solution Headline */}
-                    <h1 className="font-outfit text-2xl md:text-5xl font-bold text-text-main leading-[1.2] tracking-tight whitespace-pre-line [word-break:keep-all]">
+                    <h2 className="font-outfit text-2xl md:text-5xl font-bold text-text-main leading-[1.2] tracking-tight whitespace-pre-line [word-break:keep-all]">
                         {t('headline')}
-                    </h1>
+                    </h2>
                 </motion.div>
 
                 {/* 3. Illustration */}
                 <motion.div
                     initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                     className="relative w-full max-w-[280px] md:max-w-lg aspect-square"
                 >
                     <div className="relative w-full h-full">
                         <Image
-                            src="/hero-basket.png"
-                            alt="ONEfold Concept Illustration"
+                            src="/organize-hero.png"
+                            alt="ONEfold Organize Illustration"
                             fill
                             className="object-contain"
-                            priority
                         />
                     </div>
                     {/* Soft background glow */}
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-primary/5 blur-3xl rounded-full -z-10" />
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-blue-500/5 blur-3xl rounded-full -z-10" />
                 </motion.div>
 
                 {/* 4. Description Section */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: 0.4 }}
                     className="space-y-2 md:space-y-4"
                 >
@@ -64,13 +67,14 @@ export default function Hero() {
                 {/* 5. Download Buttons */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: 0.6 }}
                     className="flex flex-col sm:flex-row items-center sm:items-start gap-3 md:gap-4 w-full sm:w-auto"
                 >
                     <button className="w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3 bg-primary text-white px-6 py-3 md:px-8 md:py-4 rounded-xl md:rounded-2xl font-bold text-lg md:text-xl hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20 active:scale-95">
                         <Play className="w-5 h-5 fill-current" />
-                        {t('downloadAndroid')}
+                        {h('downloadAndroid')}
                     </button>
                     {/* Disabled App Store Button */}
                     <div className="w-full sm:w-auto select-none flex flex-col items-center">
@@ -79,7 +83,7 @@ export default function Hero() {
                             className="w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3 bg-slate-300 text-white px-6 py-3 md:px-8 md:py-4 rounded-xl md:rounded-2xl font-bold text-lg md:text-xl opacity-60 grayscale cursor-not-allowed"
                         >
                             <Smartphone className="w-5 h-5" />
-                            {t('downloadIos')}
+                            {h('downloadIos')}
                         </button>
                         <p className="hidden md:block text-xs text-slate-400 mt-2 font-medium">Coming Soon</p>
                     </div>

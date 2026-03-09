@@ -14,6 +14,11 @@
             "headline": "All Travel Documents\nin One Folder",
             "description": "Access your documents immediately at immigration and hotels,\neven without an internet connection."
         },
+        "organize": {
+            "problem": "Do you want to organize your materials by topic or project?",
+            "headline": "Create folders by topic and\nmanage everything in one place.",
+            "description": "ONEfold helps you create multiple topic-specific folders and\nneatly organizes your files and links into visual cards."
+        },
         "overview": {
             "title": "What is ONEfold?",
             "description": "ONEfold is an app that manages all files related to a specific topic by gathering them into a single folder.",
