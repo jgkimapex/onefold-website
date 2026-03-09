@@ -4,6 +4,7 @@ import TravelSection from "@/components/TravelSection";
 import OrganizeSection from "@/components/OrganizeSection";
 import DiscoverySection from "@/components/DiscoverySection";
 import CardsSection from "@/components/CardsSection";
+import PrivacySection from "@/components/PrivacySection";
 import AppOverview from "@/components/AppOverview";
 import Features from "@/components/Features";
 import UseCases from "@/components/UseCases";
@@ -30,6 +31,7 @@ export default async function Home({
         <OrganizeSection />
         <DiscoverySection />
         <CardsSection />
+        <PrivacySection />
         <AppOverview />
         <Features />
         <UseCases />

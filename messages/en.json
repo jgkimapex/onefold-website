@@ -29,6 +29,11 @@
             "headline": "Select a folder to see all files\nneatly organized into visual cards.",
             "description": "Cards show titles, thumbnails, and notes.\nIcons at the bottom identify the file type."
         },
+        "privacyHero": {
+            "problem": "Is my data safe?",
+            "headline": "We respect your privacy.",
+            "description": "All data stays on your phone.\nNever uploaded to servers, always accessible offline."
+        },
         "overview": {
             "title": "What is ONEfold?",
             "description": "ONEfold is an app that manages all files related to a specific topic by gathering them into a single folder.",
