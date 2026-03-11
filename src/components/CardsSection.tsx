@@ -22,7 +22,7 @@ export default function CardsSection() {
                     className="flex flex-col items-center shrink-0"
                 >
                     <span className="font-outfit text-xl md:text-5xl font-bold text-blue-900 leading-[1.2] tracking-tight whitespace-pre-line [word-break:keep-all] mb-6 md:mb-10">
-                        {t('problem')}
+                        "{t('problem')}"
                     </span>
 
                     {/* 2. Main Solution Headline */}
