@@ -21,7 +21,7 @@ export default function TravelSection() {
                     transition={{ duration: 0.6 }}
                     className="flex flex-col items-center shrink-0"
                 >
-                    <span className="text-base md:text-3xl text-slate-500 font-medium tracking-tight bg-white shadow-sm border border-slate-100 px-5 py-1.5 md:px-8 md:py-3 rounded-full mb-1 md:mb-4 inline-block [word-break:keep-all]">
+                    <span className="font-outfit text-xl md:text-5xl font-bold text-blue-900 leading-[1.2] tracking-tight whitespace-pre-line [word-break:keep-all] mb-6 md:mb-10">
                         {t('problem')}
                     </span>
 
@@ -72,10 +72,14 @@ export default function TravelSection() {
                     transition={{ duration: 0.6, delay: 0.6 }}
                     className="flex flex-col sm:flex-row items-center sm:items-start gap-2 md:gap-4 w-full sm:w-auto shrink-0 pb-2"
                 >
-                    <button className="w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3 bg-primary text-white px-5 py-2.5 md:px-8 md:py-4 rounded-xl md:rounded-2xl font-bold text-base md:text-xl hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20 active:scale-95">
+                    <a
+                        href="/onefold.apk"
+                        download="onefold.apk"
+                        className="w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3 bg-primary text-white px-5 py-2.5 md:px-8 md:py-4 rounded-xl md:rounded-2xl font-bold text-base md:text-xl hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20 active:scale-95"
+                    >
                         <Play className="w-4 h-4 md:w-5 md:h-5 fill-current" />
                         {h('downloadAndroid')}
-                    </button>
+                    </a>
                     {/* Disabled App Store Button */}
                     <div className="w-full sm:w-auto select-none flex flex-col items-center">
                         <button

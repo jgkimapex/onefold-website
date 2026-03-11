@@ -19,7 +19,7 @@ export default function Hero() {
                     transition={{ duration: 0.6 }}
                     className="flex flex-col items-center shrink-0"
                 >
-                    <span className="font-outfit text-xl md:text-5xl font-bold text-blue-900 leading-[1.2] tracking-tight whitespace-pre-line [word-break:keep-all] mb-1 md:mb-4">
+                    <span className="font-outfit text-xl md:text-5xl font-bold text-blue-900 leading-[1.2] tracking-tight whitespace-pre-line [word-break:keep-all] mb-6 md:mb-10">
                         {t('problem')}
                     </span>
 
