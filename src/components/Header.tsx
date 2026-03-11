@@ -60,7 +60,7 @@ export default function Header() {
                 </div>
 
                 {/* Mobile Mini Switcher */}
-                <div className="md:hidden flex items-center gap-4">
+                <div className="md:hidden flex items-center gap-6">
                     <button onClick={handleShare} className="text-slate-600 hover:text-primary transition-colors" aria-label="Share">
                         <Share2 className="w-5 h-5" />
                     </button>
