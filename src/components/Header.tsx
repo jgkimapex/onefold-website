@@ -28,8 +28,8 @@ export default function Header() {
 
     return (
         <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
-            <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-                <Link href="/" className="flex flex-col group -mt-1">
+            <nav className="max-w-7xl mx-auto pl-6 pr-4 h-16 flex items-center justify-between">
+                <Link href="/" className="flex flex-col relative">
                     <div className="flex items-center gap-2">
                         <Image
                             src="/logo.png"
@@ -40,7 +40,7 @@ export default function Header() {
                         />
                         <span className="font-outfit font-bold text-xl tracking-tight text-text-main">ONEfold</span>
                     </div>
-                    <span className="text-[10px] text-slate-500 font-bold ml-10 -mt-1 md:hidden">v{packageJson.version}</span>
+                    <span className="text-[10px] text-slate-500 font-bold ml-10 absolute -bottom-3 md:hidden">v{packageJson.version}</span>
                 </Link>
 
                 <div className="hidden md:flex items-center gap-8">
@@ -54,7 +54,7 @@ export default function Header() {
                 </div>
 
                 {/* Mobile Mini Switcher */}
-                <div className="md:hidden flex items-center gap-6">
+                <div className="md:hidden flex items-center gap-4">
                     <button onClick={handleShare} className="text-slate-600 hover:text-primary transition-colors" aria-label="Share">
                         <Share2 className="w-5 h-5" />
                     </button>
