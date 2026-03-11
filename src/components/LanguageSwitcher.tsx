@@ -23,6 +23,21 @@ export default function LanguageSwitcher() {
             >
                 <option value="ko">한국어</option>
                 <option value="en">English</option>
+                <option value="ja">日本語</option>
+                <option value="zh">中文</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+                <option value="it">Italiano</option>
+                <option value="ru">Русский</option>
+                <option value="pt">Português</option>
+                <option value="vi">Tiếng Việt</option>
+                <option value="th">ไทย</option>
+                <option value="id">Bahasa Indonesia</option>
+                <option value="ar">العربية</option>
+                <option value="hi">हिन्दी</option>
+                <option value="tr">Türkçe</option>
+                <option value="pl">Polski</option>
             </select>
         </div>
     );

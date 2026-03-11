@@ -3,6 +3,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
+import packageJson from '../../package.json';
 
 export default function Footer() {
     const t = useTranslations('Index.footer');
@@ -43,6 +44,9 @@ export default function Footer() {
                 <div className="pt-12 border-t border-slate-800 flex flex-col items-center gap-4">
                     <p className="text-sm font-medium">
                         {t('copyright')}
+                    </p>
+                    <p className="text-xs text-slate-500">
+                        v{packageJson.version}
                     </p>
                 </div>
             </div>

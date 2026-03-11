@@ -42,7 +42,7 @@ export default function FAQSection() {
                                     : 'bg-white text-slate-800 border-slate-100 hover:border-slate-200 shadow-sm'
                                     }`}
                             >
-                                <span className="font-bold text-sm md:text-xl pr-4 [word-break:keep-all]">
+                                <span className="font-bold text-sm md:text-xl pr-4 text-left [word-break:keep-all]">
                                     {item.q}
                                 </span>
                                 <ChevronDown className={`w-4 h-4 md:w-5 md:h-5 shrink-0 transition-transform duration-300 ${openIndex === index ? 'rotate-180' : ''}`} />
