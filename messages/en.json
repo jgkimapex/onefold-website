@@ -1,11 +1,11 @@
 {
     "Index": {
-        "title": "ONEfold - Organize Your Files in One Folder",
+        "title": "ONEfold - Keep all files and links in one folder.",
         "description": "Collect documents, links, maps and notes in one place.",
         "hero": {
             "problem": "Hard to find saved info?",
             "headline": "Gather Everything\nin One Folder",
-            "description": "Memos, PDFs, photos, maps, and links\ngather them all into ONEfold.",
+            "description": "Keep all files and links in one folder.\n(Documents, photos, audio, video, internet links, etc.)",
             "downloadAndroid": "Google Play",
             "downloadIos": "App Store"
         },

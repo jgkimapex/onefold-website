@@ -5,9 +5,14 @@ import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 
+type FAQItem = {
+    q: string;
+    a: string;
+};
+
 export default function FAQSection() {
     const t = useTranslations('Index.faqSection');
-    const faqItems = t.raw('items');
+    const faqItems = t.raw('items') as FAQItem[];
     const [openIndex, setOpenIndex] = useState<number | null>(0);
 
     return (
@@ -26,7 +31,7 @@ export default function FAQSection() {
                 </motion.div>
 
                 <div className="w-full space-y-1 md:space-y-3 flex-1 overflow-y-auto pr-1 scrollbar-hide py-0.5">
-                    {faqItems.map((item: any, index: number) => (
+                    {faqItems.map((item, index: number) => (
                         <motion.div
                             key={index}
                             initial={{ opacity: 0, x: -20 }}

@@ -3,16 +3,22 @@
 import { useTranslations } from 'next-intl';
 import { Share2, MapPin, Camera, Move } from "lucide-react";
 import { motion } from "framer-motion";
+import type { ReactNode } from "react";
+
+type FeatureItem = {
+    title: string;
+    desc: string;
+};
 
 export default function FeatureGridSection() {
     const t = useTranslations('Index.additionalFeatures');
-    const featureItems = t.raw('items');
+    const featureItems = t.raw('items') as FeatureItem[];
 
-    const icons = [
-        <Share2 className="w-8 h-8 text-primary" />,
-        <MapPin className="w-8 h-8 text-primary" />,
-        <Camera className="w-8 h-8 text-primary" />,
-        <Move className="w-8 h-8 text-primary" />
+    const icons: ReactNode[] = [
+        <Share2 key="share" className="w-8 h-8 text-primary" />,
+        <MapPin key="map" className="w-8 h-8 text-primary" />,
+        <Camera key="camera" className="w-8 h-8 text-primary" />,
+        <Move key="move" className="w-8 h-8 text-primary" />
     ];
 
     return (
@@ -33,7 +39,7 @@ export default function FeatureGridSection() {
 
                 {/* Main Content Area: Individual Icon + Text Pairs */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 w-full flex-1 items-center justify-center min-h-0">
-                    {featureItems.map((item: any, index: number) => (
+                    {featureItems.map((item, index: number) => (
                         <motion.div
                             key={index}
                             initial={{ opacity: 0, scale: 0.9 }}

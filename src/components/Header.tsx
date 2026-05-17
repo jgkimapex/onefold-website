@@ -1,6 +1,5 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import LanguageSwitcher from './LanguageSwitcher';
 import Image from 'next/image';
@@ -8,8 +7,6 @@ import { Share2 } from 'lucide-react';
 import packageJson from '../../package.json';
 
 export default function Header() {
-    const t = useTranslations('Nav');
-
     const handleShare = async () => {
         try {
             if (navigator.share) {

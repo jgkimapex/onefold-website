@@ -6,7 +6,6 @@ import {
     FolderOpen,
     Link as LinkIcon,
     MapPin,
-    Mic,
     Camera,
     Type
 } from 'lucide-react';

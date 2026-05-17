@@ -16,8 +16,8 @@ const outfit = Outfit({
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   return {
-    title: locale === 'ko' ? "ONEfold - 모든 파일을 하나의 폴더에" : "ONEfold - All Files in One Folder",
-    description: locale === 'ko' ? "여행, 프로젝트, 하루 일정까지 흩어진 파일을 한 곳에 정리하세요." : "Collect documents, links, maps and notes in one place.",
+    title: locale === 'ko' ? "ONEfold - 모든 파일과 링크를 하나의 폴더에 보관하세요." : "ONEfold - Keep all files and links in one folder.",
+    description: locale === 'ko' ? "모든 파일과 링크를 하나의 폴더에 보관하세요. (문서, 사진, 오디오, 비디오, 인터넷 링크 등)" : "Keep all files and links in one folder. (Documents, photos, audio, video, internet links, etc.)",
   };
 }
 
