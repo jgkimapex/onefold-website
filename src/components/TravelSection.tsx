@@ -73,8 +73,7 @@ export default function TravelSection() {
                     className="flex flex-col sm:flex-row items-center sm:items-start gap-2 md:gap-4 w-full sm:w-auto shrink-0 pb-2"
                 >
                     <a
-                        href="/onefold.apk"
-                        download="onefold.apk"
+                        href="https://play.google.com/store/apps/details?id=com.bizbinder.v2"
                         className="w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3 bg-primary text-white px-5 py-2.5 md:px-8 md:py-4 rounded-xl md:rounded-2xl font-bold text-base md:text-xl hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20 active:scale-95"
                     >
                         <Play className="w-4 h-4 md:w-5 md:h-5 fill-current" />
