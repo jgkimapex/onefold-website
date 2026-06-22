@@ -10,8 +10,8 @@ export default function CardsSection() {
     const h = useTranslations('Index.hero'); // For buttons strings
 
     return (
-        <section className="md:h-screen md:snap-start md:snap-always flex flex-col items-center justify-center pt-20 md:pt-24 pb-10 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden">
-            <div className="max-w-4xl mx-auto flex flex-col gap-4 md:gap-8 items-center w-full md:h-full justify-between py-4 md:py-4">
+        <section className="min-h-dvh snap-start md:h-screen md:snap-always flex flex-col items-center justify-center pt-20 [@media(max-height:740px)]:pt-16 md:pt-24 pb-10 [@media(max-height:740px)]:pb-6 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden">
+            <div className="max-w-4xl mx-auto flex flex-col gap-4 [@media(max-height:740px)]:gap-3 md:gap-8 items-center w-full md:h-full justify-between py-4 [@media(max-height:740px)]:py-2 md:py-4">
 
                 {/* 1. Problem Question */}
                 <motion.div
@@ -37,7 +37,7 @@ export default function CardsSection() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.8, delay: 0.2 }}
-                    className="relative w-full max-w-[240px] md:max-w-xs lg:max-w-md aspect-[3/4] shadow-2xl rounded-[1.5rem] md:rounded-[2rem] overflow-hidden border-4 md:border-8 border-slate-900 md:flex-1 md:h-full md:min-h-0"
+                    className="relative w-full max-w-[240px] [@media(max-height:740px)]:max-w-[210px] md:max-w-xs lg:max-w-md aspect-[3/4] shadow-2xl rounded-[1.5rem] md:rounded-[2rem] overflow-hidden border-4 md:border-8 border-slate-900 md:flex-1 md:h-full md:min-h-0"
                 >
                     <div className="relative w-full h-full">
                         <Image

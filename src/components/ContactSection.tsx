@@ -21,8 +21,8 @@ export default function ContactSection() {
     };
 
     return (
-        <section className="md:h-screen md:snap-start md:snap-always flex flex-col items-center justify-center pt-20 md:pt-24 pb-10 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden bg-white">
-            <div className="max-w-2xl mx-auto flex flex-col gap-4 md:gap-8 items-center w-full md:h-full justify-between py-4 md:py-4">
+        <section className="min-h-dvh snap-start md:h-screen md:snap-always flex flex-col items-center justify-center pt-20 [@media(max-height:740px)]:pt-16 md:pt-24 pb-10 [@media(max-height:740px)]:pb-6 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden bg-white">
+            <div className="max-w-2xl mx-auto flex flex-col gap-4 [@media(max-height:740px)]:gap-3 md:gap-8 items-center w-full md:h-full justify-between py-4 [@media(max-height:740px)]:py-2 md:py-4">
 
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -41,7 +41,7 @@ export default function ContactSection() {
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
                         onSubmit={handleSubmit}
-                        className="w-full flex flex-col gap-4 md:gap-6 bg-slate-50 p-6 md:p-10 rounded-[2rem] border border-slate-100 shadow-sm md:flex-1 justify-center md:min-h-0"
+                        className="w-full flex flex-col gap-4 [@media(max-height:740px)]:gap-3 md:gap-6 bg-slate-50 p-6 [@media(max-height:740px)]:p-4 md:p-10 rounded-[2rem] border border-slate-100 shadow-sm md:flex-1 justify-center md:min-h-0"
                     >
                         <div className="space-y-1 text-left">
                             <label className="text-xs md:text-sm font-bold text-slate-500 ml-2">Email</label>

@@ -9,8 +9,8 @@ export default function Hero() {
     const t = useTranslations('Index.hero');
 
     return (
-        <section className="md:h-screen md:snap-start md:snap-always flex flex-col items-center justify-center pt-24 pb-10 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden">
-            <div className="max-w-4xl mx-auto flex flex-col gap-4 md:gap-8 items-center justify-center w-full md:h-full">
+        <section className="min-h-dvh snap-start md:h-screen md:snap-always flex flex-col items-center justify-center pt-24 [@media(max-height:740px)]:pt-20 pb-10 [@media(max-height:740px)]:pb-6 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden">
+            <div className="max-w-4xl mx-auto flex flex-col gap-4 [@media(max-height:740px)]:gap-3 md:gap-8 items-center justify-center w-full md:h-full">
 
                 {/* 1. Problem Question */}
                 <motion.div
@@ -34,7 +34,7 @@ export default function Hero() {
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
-                    className="relative w-full max-w-[280px] md:max-w-lg aspect-square shrink-0"
+                    className="relative w-full max-w-[280px] [@media(max-height:740px)]:max-w-[240px] md:max-w-lg aspect-square shrink-0"
                 >
                     <div className="relative w-full h-full">
                         <Image
