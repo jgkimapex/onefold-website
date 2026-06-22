@@ -33,3 +33,71 @@ body {
 h1, h2, h3, h4, .font-outfit {
   font-family: var(--font-outfit), sans-serif;
 }
+
+/* ==========================================================================
+   A21급 소형 기기 레이아웃 대응 (1단계: 폭이 좁은 기기)
+   ========================================================================== */
+@media (max-width: 370px) {
+  /* 제목 축소 (약 8~10%) */
+  .mobile-section-title {
+    font-size: 1.15rem !important; /* 기존 text-xl(1.25rem/20px) -> 18.4px */
+    line-height: 1.25 !important;
+  }
+
+  .mobile-section-title-sub {
+    font-size: 0.925rem !important; /* 기존 text-base(1rem/16px) -> 14.8px */
+    line-height: 1.25 !important;
+  }
+
+  /* 본문 축소 (약 5~8%) - 최소 13px 이상 보존 */
+  .mobile-section-body {
+    font-size: 0.925rem !important; /* 기존 text-base(1rem/16px) -> 14.8px */
+    line-height: 1.35 !important;
+  }
+
+  .mobile-section-body-sub {
+    font-size: 0.825rem !important; /* 기존 text-sm(0.875rem/14px) -> 13.2px */
+    line-height: 1.35 !important;
+  }
+}
+
+/* ==========================================================================
+   A21급 소형 기기 레이아웃 대응 (2단계: 폭과 높이가 모두 작은 기기)
+   ========================================================================== */
+@media (max-width: 370px) and (max-height: 760px) {
+  /* 섹션 상하 padding 축소 */
+  .mobile-section {
+    padding-top: 3.5rem !important; /* 기존 pt-20(80px) -> 56px */
+    padding-bottom: 1.25rem !important; /* 기존 pb-10(40px) -> 20px */
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* Hero 섹션은 헤더 영역 확보를 위해 조금 더 여유있게 지정 */
+  .mobile-section-hero {
+    padding-top: 4.5rem !important; /* pt-24 -> 72px */
+  }
+
+  /* 주요 콘텐츠 gap 축소 */
+  .mobile-section-container {
+    gap: 0.5rem !important; /* gap-4 -> 0.5rem */
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+
+  /* 요소 간 여백 조정 */
+  .mobile-section-title-margin {
+    margin-bottom: 0.5rem !important; /* mb-6 -> 0.5rem */
+  }
+
+  /* 주요 일러스트 max-width 약 10~20% 축소 (280px -> 220px, 240px -> 190px) */
+  .mobile-section-visual {
+    max-width: 220px !important;
+    width: 100% !important;
+  }
+
+  .mobile-section-visual-small {
+    max-width: 190px !important;
+    width: 100% !important;
+  }
+}

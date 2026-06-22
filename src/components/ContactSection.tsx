@@ -21,8 +21,8 @@ export default function ContactSection() {
     };
 
     return (
-        <section className="min-h-dvh snap-start md:h-screen md:snap-always flex flex-col items-center justify-center pt-20 [@media(max-height:740px)]:pt-16 md:pt-24 pb-10 [@media(max-height:740px)]:pb-6 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden bg-white">
-            <div className="max-w-2xl mx-auto flex flex-col gap-4 [@media(max-height:740px)]:gap-3 md:gap-8 items-center w-full md:h-full justify-between py-4 [@media(max-height:740px)]:py-2 md:py-4">
+        <section className="min-h-dvh snap-start md:h-screen md:snap-always flex flex-col items-center justify-center pt-20 [@media(max-height:740px)]:pt-16 md:pt-24 pb-10 [@media(max-height:740px)]:pb-6 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden bg-white mobile-section">
+            <div className="max-w-2xl mx-auto flex flex-col gap-4 [@media(max-height:740px)]:gap-3 md:gap-8 items-center w-full md:h-full justify-between py-4 [@media(max-height:740px)]:py-2 md:py-4 mobile-section-container">
 
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -30,7 +30,7 @@ export default function ContactSection() {
                     viewport={{ once: true }}
                     className="space-y-1 shrink-0"
                 >
-                    <h2 className="font-outfit text-xl md:text-5xl font-bold text-text-main">
+                    <h2 className="font-outfit text-xl md:text-5xl font-bold text-text-main mobile-section-title">
                         {t('title')}
                     </h2>
                 </motion.div>
