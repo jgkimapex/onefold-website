@@ -22,8 +22,8 @@ export default function FeatureGridSection() {
     ];
 
     return (
-        <section className="h-screen snap-start snap-always flex flex-col items-center justify-center pt-20 md:pt-24 pb-4 md:pb-8 px-6 text-center overflow-hidden bg-white">
-            <div className="max-w-4xl mx-auto flex flex-col gap-4 md:gap-12 items-center w-full h-full justify-between py-1 md:py-8">
+        <section className="md:h-screen md:snap-start md:snap-always flex flex-col items-center justify-center pt-20 md:pt-24 pb-10 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden bg-white">
+            <div className="max-w-4xl mx-auto flex flex-col gap-6 md:gap-12 items-center w-full md:h-full justify-between py-4 md:py-8">
 
                 {/* Title Section */}
                 <motion.div
@@ -38,7 +38,7 @@ export default function FeatureGridSection() {
                 </motion.div>
 
                 {/* Main Content Area: Individual Icon + Text Pairs */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 w-full flex-1 items-center justify-center min-h-0">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 w-full md:flex-1 items-center justify-center md:min-h-0">
                     {featureItems.map((item, index: number) => (
                         <motion.div
                             key={index}

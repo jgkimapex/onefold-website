@@ -14,12 +14,12 @@ export default function LanguageSwitcher() {
     }
 
     return (
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1 sm:gap-2 min-w-0">
             <Globe className="w-4 h-4 text-slate-400" />
             <select
                 defaultValue={locale}
                 onChange={(e) => onSelectChange(e.target.value as AppLocale)}
-                className="bg-transparent text-sm font-medium text-slate-600 focus:outline-none cursor-pointer hover:text-primary transition-colors"
+                className="bg-transparent max-w-[92px] sm:max-w-none text-sm font-medium text-slate-600 focus:outline-none cursor-pointer hover:text-primary transition-colors"
             >
                 <option value="ko">한국어</option>
                 <option value="en">English</option>

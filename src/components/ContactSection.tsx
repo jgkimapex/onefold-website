@@ -21,8 +21,8 @@ export default function ContactSection() {
     };
 
     return (
-        <section className="h-screen snap-start snap-always flex flex-col items-center justify-center pt-20 md:pt-24 pb-4 md:pb-8 px-6 text-center overflow-hidden bg-white">
-            <div className="max-w-2xl mx-auto flex flex-col gap-4 md:gap-8 items-center w-full h-full justify-between py-1 md:py-4">
+        <section className="md:h-screen md:snap-start md:snap-always flex flex-col items-center justify-center pt-20 md:pt-24 pb-10 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden bg-white">
+            <div className="max-w-2xl mx-auto flex flex-col gap-4 md:gap-8 items-center w-full md:h-full justify-between py-4 md:py-4">
 
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -41,7 +41,7 @@ export default function ContactSection() {
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
                         onSubmit={handleSubmit}
-                        className="w-full flex flex-col gap-4 md:gap-6 bg-slate-50 p-6 md:p-10 rounded-[2rem] border border-slate-100 shadow-sm flex-1 justify-center min-h-0"
+                        className="w-full flex flex-col gap-4 md:gap-6 bg-slate-50 p-6 md:p-10 rounded-[2rem] border border-slate-100 shadow-sm md:flex-1 justify-center md:min-h-0"
                     >
                         <div className="space-y-1 text-left">
                             <label className="text-xs md:text-sm font-bold text-slate-500 ml-2">Email</label>
@@ -54,7 +54,7 @@ export default function ContactSection() {
                                 className="w-full px-4 py-3 md:py-4 rounded-xl border border-slate-200 focus:border-primary outline-none transition-all text-slate-800 text-sm md:text-lg"
                             />
                         </div>
-                        <div className="space-y-1 text-left flex-1 flex flex-col min-h-0">
+                        <div className="space-y-1 text-left md:flex-1 flex flex-col md:min-h-0">
                             <label className="text-xs md:text-sm font-bold text-slate-500 ml-2">Message</label>
                             <textarea
                                 required

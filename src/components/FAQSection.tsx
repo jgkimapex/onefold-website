@@ -16,8 +16,8 @@ export default function FAQSection() {
     const [openIndex, setOpenIndex] = useState<number | null>(0);
 
     return (
-        <section className="h-screen snap-start snap-always flex flex-col items-center justify-center pt-20 md:pt-24 pb-4 md:pb-8 px-6 text-center overflow-hidden bg-slate-50/50">
-            <div className="max-w-4xl mx-auto flex flex-col gap-2 md:gap-8 items-center w-full h-full justify-between py-1 md:py-4">
+        <section className="md:h-screen md:snap-start md:snap-always flex flex-col items-center justify-center pt-20 md:pt-24 pb-10 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden bg-slate-50/50">
+            <div className="max-w-4xl mx-auto flex flex-col gap-4 md:gap-8 items-center w-full md:h-full justify-between py-4 md:py-4">
 
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -30,7 +30,7 @@ export default function FAQSection() {
                     </h2>
                 </motion.div>
 
-                <div className="w-full space-y-1 md:space-y-3 flex-1 overflow-y-auto pr-1 scrollbar-hide py-0.5">
+                <div className="w-full space-y-2 md:space-y-3 md:flex-1 overflow-visible md:overflow-y-auto pr-1 scrollbar-hide py-0.5">
                     {faqItems.map((item, index: number) => (
                         <motion.div
                             key={index}

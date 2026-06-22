@@ -14,7 +14,7 @@ export default async function Home() {
     <div className="min-h-screen bg-background selection:bg-primary/20 flex flex-col">
       <Header />
 
-      <main className="flex-grow h-screen overflow-y-auto snap-y snap-mandatory scroll-smooth">
+      <main className="flex-grow overflow-visible md:h-screen md:overflow-y-auto md:snap-y md:snap-mandatory scroll-smooth">
         <Hero />
         <TravelSection />
         <OrganizeSection />
