@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { motion } from "framer-motion";
 import { Send, CheckCircle2 } from "lucide-react";
 import { useState } from "react";
@@ -9,6 +9,7 @@ import Link from "next/link";
 export default function ContactSection() {
     const t = useTranslations('Index.contact');
     const f = useTranslations('Index.footer');
+    const locale = useLocale();
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [submitted, setSubmitted] = useState(false);
@@ -88,10 +89,10 @@ export default function ContactSection() {
                 {/* Footer Area with Privacy Link */}
                 <div className="shrink-0 space-y-2 pt-4 border-t border-slate-100 w-full mb-2">
                     <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 text-xs md:text-base font-bold text-slate-500">
-                        <Link href="/ko/privacy" className="hover:text-primary transition-colors">
+                        <Link href={`/${locale}/privacy`} className="hover:text-primary transition-colors">
                             {f('privacy')}
                         </Link>
-                        <Link href="/ko/terms" className="hover:text-primary transition-colors">
+                        <Link href={`/${locale}/terms`} className="hover:text-primary transition-colors">
                             {f('terms')}
                         </Link>
                     </div>

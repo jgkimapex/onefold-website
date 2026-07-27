@@ -1,21 +1,23 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 export default function PrivacyPolicy() {
     const t = useTranslations('Policies.privacy');
+    const footer = useTranslations('Index.footer');
+    const locale = useLocale();
 
     return (
         <div className="min-h-screen bg-white text-slate-800 font-sans selection:bg-primary/20">
             {/* Header */}
             <header className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md border-b border-slate-100 z-50">
                 <div className="max-w-4xl mx-auto px-6 h-16 md:h-20 flex items-center justify-between">
-                    <Link href="/" className="flex items-center gap-2 text-primary font-bold hover:opacity-80 transition-opacity">
+                    <Link href={`/${locale}`} className="flex items-center gap-2 text-primary font-bold hover:opacity-80 transition-opacity">
                         <ArrowLeft className="w-5 h-5" />
-                        <span>Home</span>
+                        <span>ONEfold</span>
                     </Link>
                     <h1 className="text-lg md:text-xl font-bold font-outfit truncate px-4">
                         {t('title')}
@@ -41,7 +43,7 @@ export default function PrivacyPolicy() {
             {/* Footer */}
             <footer className="border-t border-slate-100 bg-slate-50 py-12">
                 <div className="max-w-4xl mx-auto px-6 text-center text-slate-400 text-sm">
-                    © 2026 ONEfold. All Rights Reserved.
+                    {footer('copyright')}
                 </div>
             </footer>
         </div>
