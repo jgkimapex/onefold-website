@@ -1,122 +1,122 @@
 {
     "Index": {
-        "title": "ONEfold - Organize Your Files in One Folder",
-        "description": "Collect documents, links, maps and notes in one place.",
+        "title": "ONEfold - Tutti i file e i link in un'unica cartella.",
+        "description": "Raccogli documenti, link, mappe e note in un unico posto.",
         "hero": {
-            "problem": "Hard to find saved info?",
-            "headline": "Gather Everything\nin One Folder",
-            "description": "Memos, PDFs, photos, maps, and links\ngather them all into ONEfold.",
+            "problem": "Fai fatica a trovare le informazioni salvate?",
+            "headline": "Raccogli tutto\nin un'unica cartella",
+            "description": "Conserva tutti i file e i link in un'unica cartella.\n(Documenti, foto, audio, video, link Internet e altro)",
             "downloadAndroid": "Google Play",
             "downloadIos": "App Store"
         },
         "travel": {
-            "problem": "Lost documents while traveling?",
-            "headline": "All Travel Documents\nin One Folder",
-            "description": "Access documents at immigration/hotels\neven without internet."
+            "problem": "Non trovi i documenti mentre sei in viaggio?",
+            "headline": "Tutti i documenti di viaggio\nin un'unica cartella",
+            "description": "Accedi ai documenti all'immigrazione o in hotel,\nanche senza Internet."
         },
         "organize": {
-            "problem": "Need to organize by topic?",
-            "headline": "Create Topic Folders\nManage everything in one place.",
-            "description": "Create folders and organize files/links\ninto clean visual cards."
+            "problem": "Hai bisogno di organizzare per argomento?",
+            "headline": "Crea cartelle per argomento\ne gestisci tutto in un unico posto",
+            "description": "Crea cartelle e organizza file e link\nin schede visive e ordinate."
         },
         "discovery": {
-            "problem": "Tired of manual saving?",
-            "headline": "Save documents instantly\nthe moment you find them.",
-            "description": "Use the share feature to bring any\ninfo directly into ONEfold."
+            "problem": "Stanco di salvare tutto manualmente?",
+            "headline": "Salva subito i documenti\nnel momento in cui li trovi",
+            "description": "Usa la funzione di condivisione per inviare\nqualsiasi informazione direttamente a ONEfold."
         },
         "cards": {
-            "problem": "What do folders and cards look like?",
-            "headline": "Select a folder to see all files\nneatly organized into visual cards.",
-            "description": "Cards show titles, thumbnails, and notes.\nIcons at the bottom identify the file type."
+            "problem": "Come vengono visualizzate cartelle e schede?",
+            "headline": "Seleziona una cartella per vedere tutti i file\nordinati in schede visive",
+            "description": "Le schede mostrano titoli, anteprime e note.\nLe icone inferiori indicano il tipo di file."
         },
         "privacy": {
-            "problem": "Is my data safe?",
-            "headline": "We respect your privacy.",
-            "description": "All data is stored on your device. We do not collect or upload your data to servers. You can access it anytime, even without the internet."
+            "problem": "I miei dati sono al sicuro?",
+            "headline": "Rispettiamo la tua privacy.",
+            "description": "Tutti i dati vengono salvati sul dispositivo. Non raccogliamo né carichiamo i dati sui server. Puoi accedervi in qualsiasi momento, anche senza Internet."
         },
         "additionalFeatures": {
-            "title": "Other Convenient Features",
+            "title": "Altre funzioni utili",
             "items": [
                 {
-                    "title": "Memos & Voice",
-                    "desc": "Create, edit memos and attach voice notes."
+                    "title": "Note e voce",
+                    "desc": "Crea e modifica note e aggiungi memo vocali."
                 },
                 {
-                    "title": "Maps & Routes",
-                    "desc": "Store origin, destination, and full route info."
+                    "title": "Mappe e percorsi",
+                    "desc": "Salva punto di partenza, destinazione e percorso completo."
                 },
                 {
-                    "title": "Photo & Scan",
-                    "desc": "Scatta foto e scansiona documenti."
+                    "title": "Foto e scansione",
+                    "desc": "Scatta foto e acquisisci documenti."
                 },
                 {
-                    "title": "Drag & Drop",
-                    "desc": "Freely reorder cards with simple drag-and-drop."
+                    "title": "Trascinamento",
+                    "desc": "Riordina liberamente le schede trascinandole."
                 }
             ]
         },
         "faqSection": {
-            "title": "Frequently Asked Questions (FAQ)",
+            "title": "Domande frequenti (FAQ)",
             "items": [
                 {
-                    "q": "Is ONEfold a free app?",
-                    "a": "Yes, ONEfold provides all core features for free. You can create up to 10 folders and 20 cards per folder for free. More powerful professional features may be added in the future."
+                    "q": "ONEfold è un'app gratuita?",
+                    "a": "Sì. ONEfold offre gratuitamente tutte le funzioni principali. Puoi creare fino a 10 cartelle e aggiungere fino a 20 schede per cartella. In futuro potrebbero essere aggiunte funzioni professionali più avanzate."
                 },
                 {
-                    "q": "Where are my files stored?",
-                    "a": "They are stored locally on your device and are never sent to external servers."
+                    "q": "Dove vengono salvati i miei file?",
+                    "a": "Vengono salvati localmente sul dispositivo e non vengono mai inviati a server esterni."
                 },
                 {
-                    "q": "Can I use it without internet?",
-                    "a": "Yes, all features work offline. However, an internet connection is required to view saved web links."
+                    "q": "Posso usare l'app senza Internet?",
+                    "a": "Sì. Le funzioni principali sono disponibili offline. Per aprire i link web salvati è tuttavia necessaria una connessione Internet."
                 },
                 {
-                    "q": "What types of files can be stored in ONEfold?",
-                    "a": "Word, HWP, Excel, PowerPoint, PDF, Text, Images, Audio, Video, various Web links, and Map links."
+                    "q": "Quali tipi di file possono essere salvati in ONEfold?",
+                    "a": "Word, HWP, Excel, PowerPoint, PDF, testo, immagini, audio, video, vari link web e link di mappe."
                 },
                 {
-                    "q": "What happens to my data if I delete a card or the app?",
-                    "a": "Since it's local storage, deleting the app will also delete all stored data."
+                    "q": "Cosa succede ai dati se elimino una scheda o l'app?",
+                    "a": "Poiché i dati vengono salvati localmente, eliminando l'app vengono eliminati anche i dati memorizzati al suo interno."
                 },
                 {
-                    "q": "Is there a storage limit?",
-                    "a": "You can store as much as your smartphone's available storage space allows."
+                    "q": "Esiste un limite di archiviazione?",
+                    "a": "Puoi salvare dati entro i limiti dello spazio disponibile sullo smartphone."
                 }
             ]
         },
         "contact": {
-            "title": "Feedback / Developer Contact",
-            "emailPlaceholder": "Enter your email address",
-            "messagePlaceholder": "Leave your questions or feedback here",
-            "submit": "Submit",
-            "success": "Thank you! Your feedback has been sent to jgkimapex@gmail.com."
+            "title": "Commenti / Contatto con lo sviluppatore",
+            "emailPlaceholder": "Inserisci il tuo indirizzo e-mail",
+            "messagePlaceholder": "Scrivi qui la tua domanda o il tuo commento",
+            "submit": "Invia",
+            "success": "Grazie! Il tuo messaggio è stato inviato a jgkimapex@gmail.com."
         },
         "footer": {
-            "privacy": "Privacy Policy",
-            "terms": "Terms of Service",
-            "support": "Support",
-            "copyright": "© 2026 ONEfold. All Rights Reserved."
+            "privacy": "Informativa sulla privacy",
+            "terms": "Termini di servizio",
+            "support": "Assistenza",
+            "copyright": "© 2026 ONEfold. Tutti i diritti riservati."
         }
     },
     "Policies": {
         "privacy": {
-            "title": "Privacy Policy",
-            "content": "[ONEfold] (hereinafter referred to as the \"App\") values your personal information and complies with relevant laws and regulations. This Privacy Policy explains what information the App collects and how it is used.\n\n1. Collection of Personal Information\nThis App does not provide membership registration or login functions, and does not collect personal information during the general use of the App.\n\n2. Information Collected Upon Inquiry\nWhen a user sends an inquiry via email, the following information may be collected to respond to the inquiry:\n- Email address\n- Content of the inquiry\nThis information is used only for the purpose of responding to inquiries.\n\n3. Purpose of Using Personal Information\nThe collected email address and inquiry content are used only for the following purposes:\n- Providing answers to user inquiries\n- Customer support and troubleshooting\n\n4. Period of Retention of Personal Information\nInformation collected for responding to inquiries may be stored for a necessary period after the inquiry is processed, and then safely deleted.\n\n5. Provision of Personal Information to Third Parties\nThis App does not provide or sell your personal information to third parties.\n\n6. Protection of Personal Information\nThe App applies reasonable security measures to protect personal information.\n\n7. Changes to the Privacy Policy\nThis Privacy Policy may be changed as necessary, and any changes will be notified through this page.\n\n8. Inquiry\nFor inquiries related to personal information, please contact the email below.\nEmail: jgkimapex@gmail.com\n\nEffective Date: 2026.03.01"
+            "title": "Informativa sulla privacy",
+            "content": "[ONEfold] (di seguito denominata “App”) attribuisce grande importanza ai dati personali e rispetta le leggi e i regolamenti applicabili. La presente Informativa sulla privacy spiega quali informazioni vengono raccolte dall'App e come vengono utilizzate.\n\n1. Raccolta dei dati personali\nL'App non offre funzioni di registrazione o accesso e non raccoglie dati personali durante il normale utilizzo.\n\n2. Informazioni raccolte durante una richiesta\nQuando un utente invia una richiesta tramite e-mail, possono essere raccolte le seguenti informazioni per fornire una risposta:\n- Indirizzo e-mail\n- Contenuto della richiesta\nQueste informazioni vengono utilizzate esclusivamente per rispondere alla richiesta.\n\n3. Finalità dell'utilizzo\nL'indirizzo e-mail e il contenuto della richiesta vengono utilizzati esclusivamente per:\n- Rispondere alle richieste degli utenti\n- Fornire assistenza e risolvere problemi\n\n4. Periodo di conservazione\nLe informazioni raccolte per rispondere a una richiesta possono essere conservate per il periodo necessario dopo la gestione della richiesta e successivamente eliminate in modo sicuro.\n\n5. Comunicazione a terzi\nL'App non comunica né vende i dati personali a terzi.\n\n6. Protezione dei dati personali\nL'App adotta misure di sicurezza ragionevoli per proteggere i dati personali.\n\n7. Modifiche all'informativa\nLa presente Informativa sulla privacy può essere modificata quando necessario. Le modifiche saranno comunicate tramite questa pagina.\n\n8. Contatti\nPer domande relative ai dati personali, contattare il seguente indirizzo.\nE-mail: jgkimapex@gmail.com\n\nData di entrata in vigore: 2026.03.01"
         },
         "terms": {
-            "title": "Terms of Service",
-            "content": "These Terms of Service govern the rights, obligations, and responsibilities between the user and the App provider regarding the use of [ONEfold] (hereinafter referred to as the \"App\"). By downloading or using the App, you are deemed to have agreed to these terms.\n\n1. Provision of Service\nThis App provides mobile application services to users. The content of the service is provided according to the App's functions and purposes.\n\n2. Use of Service\nUsers must use the App in compliance with relevant laws and these terms. The following acts are prohibited:\n- Acts that interfere with App services or place excessive load on the system\n- Acts that interfere with the normal operation of the App\n- Using the App in a way that violates laws and regulations\n\n3. Changes to and Suspension of Service\nThe App provider may change or suspend the content, function, or method of providing the service. In case of service changes or suspensions, notice may be provided through the App or related pages.\n\n4. Limitation of Liability\nThe App provider is not responsible for the following:\n- Service use problems arising from the user's device environment or network issues\n- Damages caused by user negligence\n- Indirect or unpredictable damages that may arise from using the App\n\n5. Intellectual Property Rights\nRights to the App and the content, design, code, etc., included in the App belong to the App provider. Users may not reproduce, modify, or distribute them without the prior permission of the App provider.\n\n6. Changes to Terms\nThese terms may be changed as necessary, and changes will be notified through the App or related pages.\n\n7. Inquiry\nFor inquiries related to the use of the App, please contact the email below.\nEmail: jgkimapex@gmail.com\n\nEffective Date: 2026.03.01"
+            "title": "Termini di servizio",
+            "content": "I presenti Termini di servizio disciplinano i diritti, gli obblighi e le responsabilità tra l'utente e il fornitore in relazione all'utilizzo di [ONEfold] (di seguito denominata “App”). Scaricando o utilizzando l'App, si considera che l'utente abbia accettato i presenti termini.\n\n1. Fornitura del servizio\nL'App fornisce servizi di applicazione mobile agli utenti. Il contenuto del servizio viene offerto in conformità alle funzioni e alle finalità dell'App.\n\n2. Utilizzo del servizio\nGli utenti devono utilizzare l'App nel rispetto delle leggi applicabili e dei presenti termini. Sono vietate le seguenti azioni:\n- Interferire con i servizi dell'App o imporre un carico eccessivo al sistema\n- Interferire con il normale funzionamento dell'App\n- Utilizzare l'App in violazione delle leggi e dei regolamenti\n\n3. Modifica e sospensione del servizio\nIl fornitore può modificare o sospendere il contenuto, le funzioni o le modalità di erogazione del servizio. Quando necessario, potrà essere pubblicato un avviso nell'App o nelle pagine correlate.\n\n4. Limitazione di responsabilità\nIl fornitore non è responsabile per:\n- Problemi derivanti dall'ambiente del dispositivo o dalla rete dell'utente\n- Danni causati dalla negligenza dell'utente\n- Danni indiretti o imprevedibili derivanti dall'utilizzo dell'App\n\n5. Proprietà intellettuale\nI diritti relativi all'App, ai contenuti, al design e al codice appartengono al fornitore. Gli utenti non possono riprodurli, modificarli o distribuirli senza previa autorizzazione.\n\n6. Modifiche ai termini\nI presenti termini possono essere modificati quando necessario. Le modifiche saranno comunicate tramite l'App o le pagine correlate.\n\n7. Contatti\nPer domande relative all'utilizzo dell'App, contattare il seguente indirizzo.\nE-mail: jgkimapex@gmail.com\n\nData di entrata in vigore: 2026.03.01"
         },
         "support": {
-            "title": "Support & Contact",
-            "content": "If you have any questions or suggestions, please contact us via email.",
-            "emailTitle": "Email Support",
+            "title": "Assistenza e contatti",
+            "content": "Per domande o suggerimenti, contattaci tramite e-mail.",
+            "emailTitle": "Assistenza via e-mail",
             "email": "jgkimapex@gmail.com"
         }
     },
     "Nav": {
-        "features": "Features",
-        "guide": "User Guide",
-        "download": "Download v1.6.1"
+        "features": "Funzioni",
+        "guide": "Guida utente",
+        "download": "Scarica v1.6.1"
     }
 }

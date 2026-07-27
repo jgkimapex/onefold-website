@@ -1,122 +1,122 @@
 {
     "Index": {
-        "title": "ONEfold - Organize Your Files in One Folder",
-        "description": "Collect documents, links, maps and notes in one place.",
+        "title": "ONEfold - すべてのファイルとリンクを1つのフォルダーに。",
+        "description": "文書、リンク、地図、メモを1か所にまとめて管理できます。",
         "hero": {
-            "problem": "Hard to find saved info?",
-            "headline": "Gather Everything\nin One Folder",
-            "description": "Memos, PDFs, photos, maps, and links\ngather them all into ONEfold.",
+            "problem": "保存した情報が見つかりませんか？",
+            "headline": "すべてを\n1つのフォルダーに",
+            "description": "すべてのファイルとリンクを1つのフォルダーに保存。\n（文書、写真、音声、動画、インターネットリンクなど）",
             "downloadAndroid": "Google Play",
             "downloadIos": "App Store"
         },
         "travel": {
-            "problem": "Lost documents while traveling?",
-            "headline": "All Travel Documents\nin One Folder",
-            "description": "Access documents at immigration/hotels\neven without internet."
+            "problem": "旅行中に書類が見つからなくなったことはありませんか？",
+            "headline": "旅行に必要な書類を\n1つのフォルダーに",
+            "description": "インターネットがなくても、入国審査やホテルで\n必要な書類をすぐに確認できます。"
         },
         "organize": {
-            "problem": "Need to organize by topic?",
-            "headline": "Create Topic Folders\nManage everything in one place.",
-            "description": "Create folders and organize files/links\ninto clean visual cards."
+            "problem": "テーマ別に整理したいですか？",
+            "headline": "テーマ別フォルダーを作成し\n1か所でまとめて管理",
+            "description": "フォルダーを作成してファイルやリンクを\n見やすいカード形式で整理できます。"
         },
         "discovery": {
-            "problem": "Tired of manual saving?",
-            "headline": "Save documents instantly\nthe moment you find them.",
-            "description": "Use the share feature to bring any\ninfo directly into ONEfold."
+            "problem": "毎回手動で保存するのが面倒ですか？",
+            "headline": "見つけた資料を\nその場ですぐに保存",
+            "description": "共有機能を使えば、さまざまな情報を\nONEfoldへ直接取り込めます。"
         },
         "cards": {
-            "problem": "What do folders and cards look like?",
-            "headline": "Select a folder to see all files\nneatly organized into visual cards.",
-            "description": "Cards show titles, thumbnails, and notes.\nIcons at the bottom identify the file type."
+            "problem": "フォルダーとカードはどのように表示されますか？",
+            "headline": "フォルダーを選ぶと、すべての資料が\n見やすいカードとして表示されます。",
+            "description": "カードにはタイトル、サムネイル、メモが表示されます。\n下部のアイコンでファイルの種類を確認できます。"
         },
         "privacy": {
-            "problem": "Is my data safe?",
-            "headline": "We respect your privacy.",
-            "description": "All data is stored on your device. We do not collect or upload your data to servers. You can access it anytime, even without the internet."
+            "problem": "データは安全ですか？",
+            "headline": "プライバシーを大切にします。",
+            "description": "すべてのデータは端末内に保存されます。サーバーへの収集やアップロードは行いません。インターネットがなくてもいつでも確認できます。"
         },
         "additionalFeatures": {
-            "title": "Other Convenient Features",
+            "title": "その他の便利な機能",
             "items": [
                 {
-                    "title": "Memos & Voice",
-                    "desc": "Create, edit memos and attach voice notes."
+                    "title": "メモと音声",
+                    "desc": "メモを作成・編集し、音声メモも追加できます。"
                 },
                 {
-                    "title": "Maps & Routes",
-                    "desc": "Store origin, destination, and full route info."
+                    "title": "地図と経路",
+                    "desc": "出発地、目的地、経路情報を保存できます。"
                 },
                 {
-                    "title": "Photo & Scan",
-                    "desc": "写真撮影と書類スキャン"
+                    "title": "写真とスキャン",
+                    "desc": "写真撮影や文書スキャンができます。"
                 },
                 {
-                    "title": "Drag & Drop",
-                    "desc": "Freely reorder cards with simple drag-and-drop."
+                    "title": "ドラッグ＆ドロップ",
+                    "desc": "ドラッグ＆ドロップでカードの順番を自由に変更できます。"
                 }
             ]
         },
         "faqSection": {
-            "title": "Frequently Asked Questions (FAQ)",
+            "title": "よくある質問（FAQ）",
             "items": [
                 {
-                    "q": "Is ONEfold a free app?",
-                    "a": "Yes, ONEfold provides all core features for free. You can create up to 10 folders and 20 cards per folder for free. More powerful professional features may be added in the future."
+                    "q": "ONEfoldは無料アプリですか？",
+                    "a": "はい。ONEfoldの主要機能は無料で利用できます。無料版では最大10個のフォルダーを作成でき、各フォルダーに20枚までカードを追加できます。今後、より高度なプロ向け機能が追加される場合があります。"
                 },
                 {
-                    "q": "Where are my files stored?",
-                    "a": "They are stored locally on your device and are never sent to external servers."
+                    "q": "ファイルはどこに保存されますか？",
+                    "a": "ファイルは端末内に保存され、外部サーバーへ送信されることはありません。"
                 },
                 {
-                    "q": "Can I use it without internet?",
-                    "a": "Yes, all features work offline. However, an internet connection is required to view saved web links."
+                    "q": "インターネットなしでも利用できますか？",
+                    "a": "はい。基本機能はオフラインで利用できます。ただし、保存したウェブリンクを開くにはインターネット接続が必要です。"
                 },
                 {
-                    "q": "What types of files can be stored in ONEfold?",
-                    "a": "Word, HWP, Excel, PowerPoint, PDF, Text, Images, Audio, Video, various Web links, and Map links."
+                    "q": "ONEfoldにはどの種類のファイルを保存できますか？",
+                    "a": "Word、HWP、Excel、PowerPoint、PDF、テキスト、画像、音声、動画、各種ウェブリンク、地図リンクを保存できます。"
                 },
                 {
-                    "q": "What happens to my data if I delete a card or the app?",
-                    "a": "Since it's local storage, deleting the app will also delete all stored data."
+                    "q": "カードやアプリを削除するとデータはどうなりますか？",
+                    "a": "データは端末内に保存されるため、アプリを削除するとアプリ内に保存されたデータも削除されます。"
                 },
                 {
-                    "q": "Is there a storage limit?",
-                    "a": "You can store as much as your smartphone's available storage space allows."
+                    "q": "保存容量に制限はありますか？",
+                    "a": "スマートフォンの空き容量の範囲内で保存できます。"
                 }
             ]
         },
         "contact": {
-            "title": "Feedback / Developer Contact",
-            "emailPlaceholder": "Enter your email address",
-            "messagePlaceholder": "Leave your questions or feedback here",
-            "submit": "Submit",
-            "success": "Thank you! Your feedback has been sent to jgkimapex@gmail.com."
+            "title": "ご意見・開発者へのお問い合わせ",
+            "emailPlaceholder": "メールアドレスを入力してください",
+            "messagePlaceholder": "ご質問やご意見を入力してください",
+            "submit": "送信",
+            "success": "ありがとうございます。ご意見を jgkimapex@gmail.com に送信しました。"
         },
         "footer": {
-            "privacy": "Privacy Policy",
-            "terms": "Terms of Service",
-            "support": "Support",
-            "copyright": "© 2026 ONEfold. All Rights Reserved."
+            "privacy": "プライバシーポリシー",
+            "terms": "利用規約",
+            "support": "サポート",
+            "copyright": "© 2026 ONEfold. 無断転載を禁じます。"
         }
     },
     "Policies": {
         "privacy": {
-            "title": "Privacy Policy",
-            "content": "[ONEfold] (hereinafter referred to as the \"App\") values your personal information and complies with relevant laws and regulations. This Privacy Policy explains what information the App collects and how it is used.\n\n1. Collection of Personal Information\nThis App does not provide membership registration or login functions, and does not collect personal information during the general use of the App.\n\n2. Information Collected Upon Inquiry\nWhen a user sends an inquiry via email, the following information may be collected to respond to the inquiry:\n- Email address\n- Content of the inquiry\nThis information is used only for the purpose of responding to inquiries.\n\n3. Purpose of Using Personal Information\nThe collected email address and inquiry content are used only for the following purposes:\n- Providing answers to user inquiries\n- Customer support and troubleshooting\n\n4. Period of Retention of Personal Information\nInformation collected for responding to inquiries may be stored for a necessary period after the inquiry is processed, and then safely deleted.\n\n5. Provision of Personal Information to Third Parties\nThis App does not provide or sell your personal information to third parties.\n\n6. Protection of Personal Information\nThe App applies reasonable security measures to protect personal information.\n\n7. Changes to the Privacy Policy\nThis Privacy Policy may be changed as necessary, and any changes will be notified through this page.\n\n8. Inquiry\nFor inquiries related to personal information, please contact the email below.\nEmail: jgkimapex@gmail.com\n\nEffective Date: 2026.03.01"
+            "title": "プライバシーポリシー",
+            "content": "[ONEfold]（以下「本アプリ」）は、利用者の個人情報を大切にし、関連法令を遵守します。本プライバシーポリシーでは、本アプリが収集する情報とその利用方法について説明します。\n\n1. 個人情報の収集\n本アプリには会員登録やログイン機能がなく、通常の利用中に個人情報を収集しません。\n\n2. お問い合わせ時に収集される情報\n利用者がメールで問い合わせを送信した場合、回答のために次の情報を収集することがあります。\n- メールアドレス\n- お問い合わせ内容\nこれらの情報は、お問い合わせへの回答の目的にのみ使用されます。\n\n3. 個人情報の利用目的\n収集したメールアドレスおよびお問い合わせ内容は、次の目的にのみ使用されます。\n- 利用者からのお問い合わせへの回答\n- カスタマーサポートおよび問題解決\n\n4. 個人情報の保管期間\nお問い合わせ対応のために収集した情報は、対応完了後も必要な期間保管され、その後安全に削除されます。\n\n5. 第三者への提供\n本アプリは、利用者の個人情報を第三者に提供または販売しません。\n\n6. 個人情報の保護\n本アプリは、個人情報を保護するために合理的なセキュリティ対策を講じます。\n\n7. プライバシーポリシーの変更\n本ポリシーは必要に応じて変更されることがあり、変更内容はこのページでお知らせします。\n\n8. お問い合わせ\n個人情報に関するお問い合わせは、以下のメールアドレスまでご連絡ください。\nメール: jgkimapex@gmail.com\n\n施行日: 2026.03.01"
         },
         "terms": {
-            "title": "Terms of Service",
-            "content": "These Terms of Service govern the rights, obligations, and responsibilities between the user and the App provider regarding the use of [ONEfold] (hereinafter referred to as the \"App\"). By downloading or using the App, you are deemed to have agreed to these terms.\n\n1. Provision of Service\nThis App provides mobile application services to users. The content of the service is provided according to the App's functions and purposes.\n\n2. Use of Service\nUsers must use the App in compliance with relevant laws and these terms. The following acts are prohibited:\n- Acts that interfere with App services or place excessive load on the system\n- Acts that interfere with the normal operation of the App\n- Using the App in a way that violates laws and regulations\n\n3. Changes to and Suspension of Service\nThe App provider may change or suspend the content, function, or method of providing the service. In case of service changes or suspensions, notice may be provided through the App or related pages.\n\n4. Limitation of Liability\nThe App provider is not responsible for the following:\n- Service use problems arising from the user's device environment or network issues\n- Damages caused by user negligence\n- Indirect or unpredictable damages that may arise from using the App\n\n5. Intellectual Property Rights\nRights to the App and the content, design, code, etc., included in the App belong to the App provider. Users may not reproduce, modify, or distribute them without the prior permission of the App provider.\n\n6. Changes to Terms\nThese terms may be changed as necessary, and changes will be notified through the App or related pages.\n\n7. Inquiry\nFor inquiries related to the use of the App, please contact the email below.\nEmail: jgkimapex@gmail.com\n\nEffective Date: 2026.03.01"
+            "title": "利用規約",
+            "content": "本利用規約は、[ONEfold]（以下「本アプリ」）の利用に関する利用者とアプリ提供者の権利、義務および責任を定めるものです。本アプリをダウンロードまたは利用した場合、本規約に同意したものとみなされます。\n\n1. サービスの提供\n本アプリは、利用者にモバイルアプリケーションサービスを提供します。サービス内容は、本アプリの機能および目的に従って提供されます。\n\n2. サービスの利用\n利用者は、関連法令および本規約を遵守して本アプリを利用する必要があります。次の行為は禁止されています。\n- 本アプリのサービスを妨害し、またはシステムに過度な負荷を与える行為\n- 本アプリの正常な運営を妨害する行為\n- 法令に違反する方法で本アプリを利用する行為\n\n3. サービスの変更および停止\nアプリ提供者は、サービスの内容、機能または提供方法を変更または停止することがあります。必要な場合は、本アプリまたは関連ページを通じてお知らせします。\n\n4. 責任の制限\nアプリ提供者は、次の事項について責任を負いません。\n- 利用者の端末環境またはネットワークの問題によって生じた利用上の問題\n- 利用者の不注意によって生じた損害\n- 本アプリの利用に伴って発生し得る間接的または予測不可能な損害\n\n5. 知的財産権\n本アプリおよび本アプリに含まれるコンテンツ、デザイン、コードなどに関する権利は、アプリ提供者に帰属します。利用者は、事前の許可なくこれらを複製、変更または配布できません。\n\n6. 規約の変更\n本規約は必要に応じて変更されることがあり、変更内容は本アプリまたは関連ページでお知らせします。\n\n7. お問い合わせ\n本アプリの利用に関するお問い合わせは、以下のメールアドレスまでご連絡ください。\nメール: jgkimapex@gmail.com\n\n施行日: 2026.03.01"
         },
         "support": {
-            "title": "Support & Contact",
-            "content": "If you have any questions or suggestions, please contact us via email.",
-            "emailTitle": "Email Support",
+            "title": "サポート・お問い合わせ",
+            "content": "ご質問やご意見がございましたら、メールでお問い合わせください。",
+            "emailTitle": "メールでのお問い合わせ",
             "email": "jgkimapex@gmail.com"
         }
     },
     "Nav": {
-        "features": "Features",
-        "guide": "User Guide",
-        "download": "Download v1.6.1"
+        "features": "機能",
+        "guide": "使用ガイド",
+        "download": "ダウンロード v1.6.1"
     }
 }

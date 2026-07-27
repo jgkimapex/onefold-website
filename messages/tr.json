@@ -1,122 +1,122 @@
 {
     "Index": {
-        "title": "ONEfold - Organize Your Files in One Folder",
-        "description": "Collect documents, links, maps and notes in one place.",
+        "title": "ONEfold - Tüm dosya ve bağlantılar tek klasörde.",
+        "description": "Belgeleri, bağlantıları, haritaları ve notları tek yerde toplayın.",
         "hero": {
-            "problem": "Hard to find saved info?",
-            "headline": "Gather Everything\nin One Folder",
-            "description": "Memos, PDFs, photos, maps, and links\ngather them all into ONEfold.",
+            "problem": "Kaydettiğiniz bilgileri bulmakta zorlanıyor musunuz?",
+            "headline": "Her şeyi\ntek klasörde toplayın",
+            "description": "Tüm dosya ve bağlantıları tek klasörde saklayın.\n(Belgeler, fotoğraflar, ses, video, internet bağlantıları vb.)",
             "downloadAndroid": "Google Play",
             "downloadIos": "App Store"
         },
         "travel": {
-            "problem": "Lost documents while traveling?",
-            "headline": "All Travel Documents\nin One Folder",
-            "description": "Access documents at immigration/hotels\neven without internet."
+            "problem": "Seyahat sırasında belgelerinizi bulamıyor musunuz?",
+            "headline": "Tüm seyahat belgeleri\ntek klasörde",
+            "description": "İnternet olmasa bile sınır kontrolünde veya otelde\nbelgelerinize erişin."
         },
         "organize": {
-            "problem": "Need to organize by topic?",
-            "headline": "Create Topic Folders\nManage everything in one place.",
-            "description": "Create folders and organize files/links\ninto clean visual cards."
+            "problem": "Konulara göre düzenlemek mi istiyorsunuz?",
+            "headline": "Konu klasörleri oluşturun\nve her şeyi tek yerde yönetin",
+            "description": "Klasörler oluşturun, dosya ve bağlantıları\ndüzenli görsel kartlar halinde saklayın."
         },
         "discovery": {
-            "problem": "Tired of manual saving?",
-            "headline": "Save documents instantly\nthe moment you find them.",
-            "description": "Use the share feature to bring any\ninfo directly into ONEfold."
+            "problem": "Her şeyi elle kaydetmekten sıkıldınız mı?",
+            "headline": "Belgeleri bulduğunuz anda\nhemen kaydedin",
+            "description": "Her türlü bilgiyi doğrudan ONEfold'a aktarmak için\npaylaşma özelliğini kullanın."
         },
         "cards": {
-            "problem": "What do folders and cards look like?",
-            "headline": "Select a folder to see all files\nneatly organized into visual cards.",
-            "description": "Cards show titles, thumbnails, and notes.\nIcons at the bottom identify the file type."
+            "problem": "Klasörler ve kartlar nasıl görünür?",
+            "headline": "Bir klasör seçin ve tüm dosyaları\ndüzenli görsel kartlarda görün",
+            "description": "Kartlar başlıkları, küçük resimleri ve notları gösterir.\nAlttaki simgeler dosya türünü belirtir."
         },
         "privacy": {
-            "problem": "Is my data safe?",
-            "headline": "We respect your privacy.",
-            "description": "All data is stored on your device. We do not collect or upload your data to servers. You can access it anytime, even without the internet."
+            "problem": "Verilerim güvende mi?",
+            "headline": "Gizliliğinize saygı duyuyoruz.",
+            "description": "Tüm veriler cihazınızda saklanır. Verilerinizi toplamaz veya sunuculara yüklemeyiz. İnternet olmasa bile her zaman erişebilirsiniz."
         },
         "additionalFeatures": {
-            "title": "Other Convenient Features",
+            "title": "Diğer kullanışlı özellikler",
             "items": [
                 {
-                    "title": "Memos & Voice",
-                    "desc": "Create, edit memos and attach voice notes."
+                    "title": "Notlar ve ses",
+                    "desc": "Not oluşturun, düzenleyin ve sesli not ekleyin."
                 },
                 {
-                    "title": "Maps & Routes",
-                    "desc": "Store origin, destination, and full route info."
+                    "title": "Haritalar ve rotalar",
+                    "desc": "Başlangıç, varış ve tüm rota bilgilerini saklayın."
                 },
                 {
-                    "title": "Photo & Scan",
+                    "title": "Fotoğraf ve tarama",
                     "desc": "Fotoğraf çekin ve belgeleri tarayın."
                 },
                 {
-                    "title": "Drag & Drop",
-                    "desc": "Freely reorder cards with simple drag-and-drop."
+                    "title": "Sürükle ve bırak",
+                    "desc": "Kartları basitçe sürükleyerek serbestçe sıralayın."
                 }
             ]
         },
         "faqSection": {
-            "title": "Frequently Asked Questions (FAQ)",
+            "title": "Sık sorulan sorular (SSS)",
             "items": [
                 {
-                    "q": "Is ONEfold a free app?",
-                    "a": "Yes, ONEfold provides all core features for free. You can create up to 10 folders and 20 cards per folder for free. More powerful professional features may be added in the future."
+                    "q": "ONEfold ücretsiz bir uygulama mı?",
+                    "a": "Evet. ONEfold tüm temel özellikleri ücretsiz sunar. En fazla 10 klasör oluşturabilir ve her klasöre 20 kart ekleyebilirsiniz. Gelecekte daha gelişmiş profesyonel özellikler eklenebilir."
                 },
                 {
-                    "q": "Where are my files stored?",
-                    "a": "They are stored locally on your device and are never sent to external servers."
+                    "q": "Dosyalarım nerede saklanır?",
+                    "a": "Dosyalar cihazınızda yerel olarak saklanır ve hiçbir zaman harici sunuculara gönderilmez."
                 },
                 {
-                    "q": "Can I use it without internet?",
-                    "a": "Yes, all features work offline. However, an internet connection is required to view saved web links."
+                    "q": "İnternet olmadan kullanabilir miyim?",
+                    "a": "Evet. Temel özellikler çevrimdışı çalışır. Ancak kayıtlı web bağlantılarını açmak için internet bağlantısı gerekir."
                 },
                 {
-                    "q": "What types of files can be stored in ONEfold?",
-                    "a": "Word, HWP, Excel, PowerPoint, PDF, Text, Images, Audio, Video, various Web links, and Map links."
+                    "q": "ONEfold'da hangi dosya türleri saklanabilir?",
+                    "a": "Word, HWP, Excel, PowerPoint, PDF, metin, görseller, ses, video, çeşitli web bağlantıları ve harita bağlantıları."
                 },
                 {
-                    "q": "What happens to my data if I delete a card or the app?",
-                    "a": "Since it's local storage, deleting the app will also delete all stored data."
+                    "q": "Bir kartı veya uygulamayı silersem verilerime ne olur?",
+                    "a": "Veriler yerel olarak saklandığından, uygulamayı silmek uygulama içinde saklanan verileri de siler."
                 },
                 {
-                    "q": "Is there a storage limit?",
-                    "a": "You can store as much as your smartphone's available storage space allows."
+                    "q": "Depolama sınırı var mı?",
+                    "a": "Akıllı telefonunuzdaki kullanılabilir depolama alanı kadar veri saklayabilirsiniz."
                 }
             ]
         },
         "contact": {
-            "title": "Feedback / Developer Contact",
-            "emailPlaceholder": "Enter your email address",
-            "messagePlaceholder": "Leave your questions or feedback here",
-            "submit": "Submit",
-            "success": "Thank you! Your feedback has been sent to jgkimapex@gmail.com."
+            "title": "Geri bildirim / Geliştiriciyle iletişim",
+            "emailPlaceholder": "E-posta adresinizi girin",
+            "messagePlaceholder": "Sorunuzu veya geri bildiriminizi yazın",
+            "submit": "Gönder",
+            "success": "Teşekkürler! Mesajınız jgkimapex@gmail.com adresine gönderildi."
         },
         "footer": {
-            "privacy": "Privacy Policy",
-            "terms": "Terms of Service",
-            "support": "Support",
-            "copyright": "© 2026 ONEfold. All Rights Reserved."
+            "privacy": "Gizlilik Politikası",
+            "terms": "Hizmet Koşulları",
+            "support": "Destek",
+            "copyright": "© 2026 ONEfold. Tüm hakları saklıdır."
         }
     },
     "Policies": {
         "privacy": {
-            "title": "Privacy Policy",
-            "content": "[ONEfold] (hereinafter referred to as the \"App\") values your personal information and complies with relevant laws and regulations. This Privacy Policy explains what information the App collects and how it is used.\n\n1. Collection of Personal Information\nThis App does not provide membership registration or login functions, and does not collect personal information during the general use of the App.\n\n2. Information Collected Upon Inquiry\nWhen a user sends an inquiry via email, the following information may be collected to respond to the inquiry:\n- Email address\n- Content of the inquiry\nThis information is used only for the purpose of responding to inquiries.\n\n3. Purpose of Using Personal Information\nThe collected email address and inquiry content are used only for the following purposes:\n- Providing answers to user inquiries\n- Customer support and troubleshooting\n\n4. Period of Retention of Personal Information\nInformation collected for responding to inquiries may be stored for a necessary period after the inquiry is processed, and then safely deleted.\n\n5. Provision of Personal Information to Third Parties\nThis App does not provide or sell your personal information to third parties.\n\n6. Protection of Personal Information\nThe App applies reasonable security measures to protect personal information.\n\n7. Changes to the Privacy Policy\nThis Privacy Policy may be changed as necessary, and any changes will be notified through this page.\n\n8. Inquiry\nFor inquiries related to personal information, please contact the email below.\nEmail: jgkimapex@gmail.com\n\nEffective Date: 2026.03.01"
+            "title": "Gizlilik Politikası",
+            "content": "[ONEfold] (bundan sonra “Uygulama” olarak anılacaktır) kişisel verilerinize önem verir ve ilgili yasa ve düzenlemelere uyar. Bu Gizlilik Politikası, Uygulamanın hangi bilgileri topladığını ve bunların nasıl kullanıldığını açıklar.\n\n1. Kişisel verilerin toplanması\nUygulama üyelik kaydı veya oturum açma işlevi sunmaz ve normal kullanım sırasında kişisel veri toplamaz.\n\n2. İletişim sırasında toplanan bilgiler\nBir kullanıcı e-posta yoluyla soru gönderdiğinde, yanıt vermek amacıyla şu bilgiler toplanabilir:\n- E-posta adresi\n- Mesaj içeriği\nBu bilgiler yalnızca soruyu yanıtlamak amacıyla kullanılır.\n\n3. Kullanım amacı\nToplanan e-posta adresi ve mesaj içeriği yalnızca şu amaçlarla kullanılır:\n- Kullanıcı sorularını yanıtlamak\n- Müşteri desteği ve sorun giderme\n\n4. Saklama süresi\nBir soruya yanıt vermek için toplanan bilgiler, işlem tamamlandıktan sonra gerekli süre boyunca saklanabilir ve ardından güvenli şekilde silinir.\n\n5. Üçüncü taraflara aktarım\nUygulama kişisel verilerinizi üçüncü taraflara sağlamaz veya satmaz.\n\n6. Kişisel verilerin korunması\nUygulama kişisel verileri korumak için makul güvenlik önlemleri uygular.\n\n7. Politika değişiklikleri\nBu Gizlilik Politikası gerektiğinde değiştirilebilir. Değişiklikler bu sayfada duyurulur.\n\n8. İletişim\nKişisel verilerle ilgili sorular için aşağıdaki e-posta adresinden iletişime geçin.\nE-posta: jgkimapex@gmail.com\n\nYürürlük tarihi: 2026.03.01"
         },
         "terms": {
-            "title": "Terms of Service",
-            "content": "These Terms of Service govern the rights, obligations, and responsibilities between the user and the App provider regarding the use of [ONEfold] (hereinafter referred to as the \"App\"). By downloading or using the App, you are deemed to have agreed to these terms.\n\n1. Provision of Service\nThis App provides mobile application services to users. The content of the service is provided according to the App's functions and purposes.\n\n2. Use of Service\nUsers must use the App in compliance with relevant laws and these terms. The following acts are prohibited:\n- Acts that interfere with App services or place excessive load on the system\n- Acts that interfere with the normal operation of the App\n- Using the App in a way that violates laws and regulations\n\n3. Changes to and Suspension of Service\nThe App provider may change or suspend the content, function, or method of providing the service. In case of service changes or suspensions, notice may be provided through the App or related pages.\n\n4. Limitation of Liability\nThe App provider is not responsible for the following:\n- Service use problems arising from the user's device environment or network issues\n- Damages caused by user negligence\n- Indirect or unpredictable damages that may arise from using the App\n\n5. Intellectual Property Rights\nRights to the App and the content, design, code, etc., included in the App belong to the App provider. Users may not reproduce, modify, or distribute them without the prior permission of the App provider.\n\n6. Changes to Terms\nThese terms may be changed as necessary, and changes will be notified through the App or related pages.\n\n7. Inquiry\nFor inquiries related to the use of the App, please contact the email below.\nEmail: jgkimapex@gmail.com\n\nEffective Date: 2026.03.01"
+            "title": "Hizmet Koşulları",
+            "content": "Bu Hizmet Koşulları, [ONEfold] (bundan sonra “Uygulama” olarak anılacaktır) kullanımına ilişkin olarak kullanıcı ile sağlayıcı arasındaki hakları, yükümlülükleri ve sorumlulukları düzenler. Uygulamayı indirerek veya kullanarak bu koşulları kabul etmiş sayılırsınız.\n\n1. Hizmetin sunulması\nUygulama kullanıcılara mobil uygulama hizmetleri sunar. Hizmetin içeriği Uygulamanın işlevleri ve amacı doğrultusunda sağlanır.\n\n2. Hizmetin kullanımı\nKullanıcılar Uygulamayı ilgili yasalara ve bu koşullara uygun şekilde kullanmalıdır. Aşağıdaki eylemler yasaktır:\n- Uygulama hizmetlerine müdahale etmek veya sisteme aşırı yük bindirmek\n- Uygulamanın normal çalışmasını engellemek\n- Uygulamayı yasa ve düzenlemelere aykırı şekilde kullanmak\n\n3. Hizmetin değiştirilmesi ve durdurulması\nSağlayıcı hizmetin içeriğini, işlevlerini veya sunulma yöntemini değiştirebilir ya da durdurabilir. Gerektiğinde Uygulama veya ilgili sayfalar üzerinden bildirim yapılabilir.\n\n4. Sorumluluğun sınırlandırılması\nSağlayıcı aşağıdakilerden sorumlu değildir:\n- Kullanıcının cihaz ortamından veya ağ sorunlarından kaynaklanan kullanım problemleri\n- Kullanıcının ihmalinden kaynaklanan zararlar\n- Uygulamanın kullanımından doğabilecek dolaylı veya öngörülemeyen zararlar\n\n5. Fikri mülkiyet hakları\nUygulama ile içerik, tasarım ve kod gibi unsurların hakları sağlayıcıya aittir. Kullanıcılar bunları önceden izin almadan çoğaltamaz, değiştiremez veya dağıtamaz.\n\n6. Koşulların değiştirilmesi\nBu koşullar gerektiğinde değiştirilebilir. Değişiklikler Uygulama veya ilgili sayfalar üzerinden duyurulur.\n\n7. İletişim\nUygulamanın kullanımıyla ilgili sorular için aşağıdaki e-posta adresinden iletişime geçin.\nE-posta: jgkimapex@gmail.com\n\nYürürlük tarihi: 2026.03.01"
         },
         "support": {
-            "title": "Support & Contact",
-            "content": "If you have any questions or suggestions, please contact us via email.",
-            "emailTitle": "Email Support",
+            "title": "Destek ve iletişim",
+            "content": "Sorularınız veya önerileriniz için bizimle e-posta yoluyla iletişime geçin.",
+            "emailTitle": "E-posta desteği",
             "email": "jgkimapex@gmail.com"
         }
     },
     "Nav": {
-        "features": "Features",
-        "guide": "User Guide",
-        "download": "Download v1.6.1"
+        "features": "Özellikler",
+        "guide": "Kullanım kılavuzu",
+        "download": "v1.6.1'i indir"
     }
 }

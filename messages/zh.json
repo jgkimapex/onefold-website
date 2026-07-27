@@ -1,122 +1,122 @@
 {
     "Index": {
-        "title": "ONEfold - Organize Your Files in One Folder",
-        "description": "Collect documents, links, maps and notes in one place.",
+        "title": "ONEfold - 将所有文件和链接集中到一个文件夹。",
+        "description": "在一个地方集中管理文档、链接、地图和备忘录。",
         "hero": {
-            "problem": "Hard to find saved info?",
-            "headline": "Gather Everything\nin One Folder",
-            "description": "Memos, PDFs, photos, maps, and links\ngather them all into ONEfold.",
+            "problem": "保存的信息总是难以找到吗？",
+            "headline": "将所有内容\n集中到一个文件夹",
+            "description": "将所有文件和链接集中保存在一个文件夹中。\n（文档、照片、音频、视频、网页链接等）",
             "downloadAndroid": "Google Play",
             "downloadIos": "App Store"
         },
         "travel": {
-            "problem": "Lost documents while traveling?",
-            "headline": "All Travel Documents\nin One Folder",
-            "description": "Access documents at immigration/hotels\neven without internet."
+            "problem": "旅行时找不到需要的文件吗？",
+            "headline": "将所有旅行资料\n集中到一个文件夹",
+            "description": "即使没有网络，也能在入境审查或酒店\n快速查看所需资料。"
         },
         "organize": {
-            "problem": "Need to organize by topic?",
-            "headline": "Create Topic Folders\nManage everything in one place.",
-            "description": "Create folders and organize files/links\ninto clean visual cards."
+            "problem": "需要按主题整理资料吗？",
+            "headline": "创建主题文件夹\n在一个地方统一管理",
+            "description": "创建文件夹，并将文件和链接\n整理成清晰直观的卡片。"
         },
         "discovery": {
-            "problem": "Tired of manual saving?",
-            "headline": "Save documents instantly\nthe moment you find them.",
-            "description": "Use the share feature to bring any\ninfo directly into ONEfold."
+            "problem": "厌倦了手动保存资料吗？",
+            "headline": "发现资料时\n立即保存",
+            "description": "使用分享功能，可将各种信息\n直接保存到 ONEfold。"
         },
         "cards": {
-            "problem": "What do folders and cards look like?",
-            "headline": "Select a folder to see all files\nneatly organized into visual cards.",
-            "description": "Cards show titles, thumbnails, and notes.\nIcons at the bottom identify the file type."
+            "problem": "文件夹和卡片是什么样的？",
+            "headline": "选择文件夹后，所有资料都会\n整齐显示为可视化卡片。",
+            "description": "卡片会显示标题、缩略图和备注。\n底部图标用于识别文件类型。"
         },
         "privacy": {
-            "problem": "Is my data safe?",
-            "headline": "We respect your privacy.",
-            "description": "All data is stored on your device. We do not collect or upload your data to servers. You can access it anytime, even without the internet."
+            "problem": "我的数据安全吗？",
+            "headline": "我们重视您的隐私。",
+            "description": "所有数据都保存在您的设备中。我们不会收集数据或上传到服务器。即使没有网络，也可以随时查看。"
         },
         "additionalFeatures": {
-            "title": "Other Convenient Features",
+            "title": "其他实用功能",
             "items": [
                 {
-                    "title": "Memos & Voice",
-                    "desc": "Create, edit memos and attach voice notes."
+                    "title": "备忘录与语音",
+                    "desc": "创建和编辑备忘录，并添加语音记录。"
                 },
                 {
-                    "title": "Maps & Routes",
-                    "desc": "Store origin, destination, and full route info."
+                    "title": "地图与路线",
+                    "desc": "保存出发地、目的地和完整路线信息。"
                 },
                 {
-                    "title": "Photo & Scan",
-                    "desc": "拍摄照片并扫描文档"
+                    "title": "拍照与扫描",
+                    "desc": "拍摄照片并扫描文档。"
                 },
                 {
-                    "title": "Drag & Drop",
-                    "desc": "Freely reorder cards with simple drag-and-drop."
+                    "title": "拖放排序",
+                    "desc": "通过简单的拖放自由调整卡片顺序。"
                 }
             ]
         },
         "faqSection": {
-            "title": "Frequently Asked Questions (FAQ)",
+            "title": "常见问题（FAQ）",
             "items": [
                 {
-                    "q": "Is ONEfold a free app?",
-                    "a": "Yes, ONEfold provides all core features for free. You can create up to 10 folders and 20 cards per folder for free. More powerful professional features may be added in the future."
+                    "q": "ONEfold 是免费应用吗？",
+                    "a": "是的，ONEfold 的主要功能均可免费使用。免费版最多可以创建10个文件夹，每个文件夹可添加20张卡片。未来可能会增加更强大的专业功能。"
                 },
                 {
-                    "q": "Where are my files stored?",
-                    "a": "They are stored locally on your device and are never sent to external servers."
+                    "q": "我的文件保存在哪里？",
+                    "a": "文件保存在您的设备本地，不会发送到外部服务器。"
                 },
                 {
-                    "q": "Can I use it without internet?",
-                    "a": "Yes, all features work offline. However, an internet connection is required to view saved web links."
+                    "q": "没有网络也能使用吗？",
+                    "a": "可以。主要功能均可离线使用，但查看已保存的网页链接需要网络连接。"
                 },
                 {
-                    "q": "What types of files can be stored in ONEfold?",
-                    "a": "Word, HWP, Excel, PowerPoint, PDF, Text, Images, Audio, Video, various Web links, and Map links."
+                    "q": "ONEfold 可以保存哪些类型的文件？",
+                    "a": "可以保存 Word、HWP、Excel、PowerPoint、PDF、文本、图片、音频、视频、各种网页链接和地图链接。"
                 },
                 {
-                    "q": "What happens to my data if I delete a card or the app?",
-                    "a": "Since it's local storage, deleting the app will also delete all stored data."
+                    "q": "删除卡片或应用后，数据会怎样？",
+                    "a": "数据保存在设备本地，因此删除应用时，保存在应用内的数据也会被删除。"
                 },
                 {
-                    "q": "Is there a storage limit?",
-                    "a": "You can store as much as your smartphone's available storage space allows."
+                    "q": "存储容量有限制吗？",
+                    "a": "可以在智能手机可用存储空间的范围内保存资料。"
                 }
             ]
         },
         "contact": {
-            "title": "Feedback / Developer Contact",
-            "emailPlaceholder": "Enter your email address",
-            "messagePlaceholder": "Leave your questions or feedback here",
-            "submit": "Submit",
-            "success": "Thank you! Your feedback has been sent to jgkimapex@gmail.com."
+            "title": "意见反馈／联系开发者",
+            "emailPlaceholder": "请输入电子邮件地址",
+            "messagePlaceholder": "请输入问题或意见",
+            "submit": "提交",
+            "success": "谢谢！您的反馈已发送至 jgkimapex@gmail.com。"
         },
         "footer": {
-            "privacy": "Privacy Policy",
-            "terms": "Terms of Service",
-            "support": "Support",
-            "copyright": "© 2026 ONEfold. All Rights Reserved."
+            "privacy": "隐私政策",
+            "terms": "服务条款",
+            "support": "客户支持",
+            "copyright": "© 2026 ONEfold. 保留所有权利。"
         }
     },
     "Policies": {
         "privacy": {
-            "title": "Privacy Policy",
-            "content": "[ONEfold] (hereinafter referred to as the \"App\") values your personal information and complies with relevant laws and regulations. This Privacy Policy explains what information the App collects and how it is used.\n\n1. Collection of Personal Information\nThis App does not provide membership registration or login functions, and does not collect personal information during the general use of the App.\n\n2. Information Collected Upon Inquiry\nWhen a user sends an inquiry via email, the following information may be collected to respond to the inquiry:\n- Email address\n- Content of the inquiry\nThis information is used only for the purpose of responding to inquiries.\n\n3. Purpose of Using Personal Information\nThe collected email address and inquiry content are used only for the following purposes:\n- Providing answers to user inquiries\n- Customer support and troubleshooting\n\n4. Period of Retention of Personal Information\nInformation collected for responding to inquiries may be stored for a necessary period after the inquiry is processed, and then safely deleted.\n\n5. Provision of Personal Information to Third Parties\nThis App does not provide or sell your personal information to third parties.\n\n6. Protection of Personal Information\nThe App applies reasonable security measures to protect personal information.\n\n7. Changes to the Privacy Policy\nThis Privacy Policy may be changed as necessary, and any changes will be notified through this page.\n\n8. Inquiry\nFor inquiries related to personal information, please contact the email below.\nEmail: jgkimapex@gmail.com\n\nEffective Date: 2026.03.01"
+            "title": "隐私政策",
+            "content": "[ONEfold]（以下简称“本应用”）重视您的个人信息，并遵守相关法律法规。本隐私政策说明本应用收集哪些信息以及如何使用这些信息。\n\n1. 个人信息的收集\n本应用不提供会员注册或登录功能，在一般使用过程中不收集个人信息。\n\n2. 咨询时收集的信息\n用户通过电子邮件发送咨询时，为了进行回复，可能会收集以下信息：\n- 电子邮件地址\n- 咨询内容\n这些信息仅用于回复用户咨询。\n\n3. 个人信息的使用目的\n收集的电子邮件地址和咨询内容仅用于以下目的：\n- 回复用户咨询\n- 客户支持与故障处理\n\n4. 个人信息的保留期限\n为回复咨询而收集的信息，可能会在处理完成后继续保留必要期间，之后将安全删除。\n\n5. 向第三方提供个人信息\n本应用不会向第三方提供或出售您的个人信息。\n\n6. 个人信息保护\n本应用采取合理的安全措施保护个人信息。\n\n7. 隐私政策的变更\n本隐私政策可能会根据需要进行修改，变更内容将通过本页面通知。\n\n8. 咨询\n有关个人信息的问题，请通过以下电子邮件联系我们。\n电子邮件：jgkimapex@gmail.com\n\n生效日期：2026.03.01"
         },
         "terms": {
-            "title": "Terms of Service",
-            "content": "These Terms of Service govern the rights, obligations, and responsibilities between the user and the App provider regarding the use of [ONEfold] (hereinafter referred to as the \"App\"). By downloading or using the App, you are deemed to have agreed to these terms.\n\n1. Provision of Service\nThis App provides mobile application services to users. The content of the service is provided according to the App's functions and purposes.\n\n2. Use of Service\nUsers must use the App in compliance with relevant laws and these terms. The following acts are prohibited:\n- Acts that interfere with App services or place excessive load on the system\n- Acts that interfere with the normal operation of the App\n- Using the App in a way that violates laws and regulations\n\n3. Changes to and Suspension of Service\nThe App provider may change or suspend the content, function, or method of providing the service. In case of service changes or suspensions, notice may be provided through the App or related pages.\n\n4. Limitation of Liability\nThe App provider is not responsible for the following:\n- Service use problems arising from the user's device environment or network issues\n- Damages caused by user negligence\n- Indirect or unpredictable damages that may arise from using the App\n\n5. Intellectual Property Rights\nRights to the App and the content, design, code, etc., included in the App belong to the App provider. Users may not reproduce, modify, or distribute them without the prior permission of the App provider.\n\n6. Changes to Terms\nThese terms may be changed as necessary, and changes will be notified through the App or related pages.\n\n7. Inquiry\nFor inquiries related to the use of the App, please contact the email below.\nEmail: jgkimapex@gmail.com\n\nEffective Date: 2026.03.01"
+            "title": "服务条款",
+            "content": "本服务条款规定用户与应用提供者之间因使用 [ONEfold]（以下简称“本应用”）而产生的权利、义务和责任。下载或使用本应用即视为同意本条款。\n\n1. 服务提供\n本应用向用户提供移动应用服务。服务内容根据本应用的功能和目的提供。\n\n2. 服务使用\n用户应遵守相关法律法规及本条款使用本应用。禁止以下行为：\n- 妨碍本应用服务或给系统造成过大负担\n- 妨碍本应用正常运行\n- 以违反法律法规的方式使用本应用\n\n3. 服务变更与中止\n应用提供者可能会变更或中止服务的内容、功能或提供方式。必要时将通过本应用或相关页面进行通知。\n\n4. 责任限制\n应用提供者不对以下事项承担责任：\n- 因用户设备环境或网络问题导致的服务使用问题\n- 因用户疏忽导致的损失\n- 使用本应用可能产生的间接或无法预见的损失\n\n5. 知识产权\n本应用以及其中包含的内容、设计和代码等权利归应用提供者所有。未经事先许可，用户不得复制、修改或分发。\n\n6. 条款变更\n本条款可能会根据需要进行修改，变更内容将通过本应用或相关页面通知。\n\n7. 咨询\n有关本应用使用的问题，请通过以下电子邮件联系我们。\n电子邮件：jgkimapex@gmail.com\n\n生效日期：2026.03.01"
         },
         "support": {
-            "title": "Support & Contact",
-            "content": "If you have any questions or suggestions, please contact us via email.",
-            "emailTitle": "Email Support",
+            "title": "支持与联系",
+            "content": "如有任何问题或建议，请通过电子邮件联系我们。",
+            "emailTitle": "电子邮件支持",
             "email": "jgkimapex@gmail.com"
         }
     },
     "Nav": {
-        "features": "Features",
-        "guide": "User Guide",
-        "download": "Download v1.6.1"
+        "features": "功能",
+        "guide": "使用指南",
+        "download": "下载 v1.6.1"
     }
 }

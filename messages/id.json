@@ -1,122 +1,122 @@
 {
     "Index": {
-        "title": "ONEfold - Organize Your Files in One Folder",
-        "description": "Collect documents, links, maps and notes in one place.",
+        "title": "ONEfold - Semua file dan tautan dalam satu folder.",
+        "description": "Kumpulkan dokumen, tautan, peta, dan catatan di satu tempat.",
         "hero": {
-            "problem": "Hard to find saved info?",
-            "headline": "Gather Everything\nin One Folder",
-            "description": "Memos, PDFs, photos, maps, and links\ngather them all into ONEfold.",
+            "problem": "Sulit menemukan informasi yang sudah disimpan?",
+            "headline": "Kumpulkan semuanya\ndalam satu folder",
+            "description": "Simpan semua file dan tautan dalam satu folder.\n(Dokumen, foto, audio, video, tautan internet, dan lainnya)",
             "downloadAndroid": "Google Play",
             "downloadIos": "App Store"
         },
         "travel": {
-            "problem": "Lost documents while traveling?",
-            "headline": "All Travel Documents\nin One Folder",
-            "description": "Access documents at immigration/hotels\neven without internet."
+            "problem": "Dokumen sulit ditemukan saat bepergian?",
+            "headline": "Semua dokumen perjalanan\ndalam satu folder",
+            "description": "Akses dokumen di imigrasi atau hotel,\nbahkan tanpa internet."
         },
         "organize": {
-            "problem": "Need to organize by topic?",
-            "headline": "Create Topic Folders\nManage everything in one place.",
-            "description": "Create folders and organize files/links\ninto clean visual cards."
+            "problem": "Perlu mengatur berdasarkan topik?",
+            "headline": "Buat folder berdasarkan topik\ndan kelola semuanya di satu tempat",
+            "description": "Buat folder dan atur file serta tautan\nmenjadi kartu visual yang rapi."
         },
         "discovery": {
-            "problem": "Tired of manual saving?",
-            "headline": "Save documents instantly\nthe moment you find them.",
-            "description": "Use the share feature to bring any\ninfo directly into ONEfold."
+            "problem": "Lelah menyimpan semuanya secara manual?",
+            "headline": "Simpan dokumen seketika\nsaat Anda menemukannya",
+            "description": "Gunakan fitur berbagi untuk memasukkan\ninformasi langsung ke ONEfold."
         },
         "cards": {
-            "problem": "What do folders and cards look like?",
-            "headline": "Select a folder to see all files\nneatly organized into visual cards.",
-            "description": "Cards show titles, thumbnails, and notes.\nIcons at the bottom identify the file type."
+            "problem": "Seperti apa tampilan folder dan kartu?",
+            "headline": "Pilih folder untuk melihat semua file\ntersusun rapi dalam kartu visual",
+            "description": "Kartu menampilkan judul, gambar mini, dan catatan.\nIkon di bagian bawah menunjukkan jenis file."
         },
         "privacy": {
-            "problem": "Is my data safe?",
-            "headline": "We respect your privacy.",
-            "description": "All data is stored on your device. We do not collect or upload your data to servers. You can access it anytime, even without the internet."
+            "problem": "Apakah data saya aman?",
+            "headline": "Kami menghormati privasi Anda.",
+            "description": "Semua data disimpan di perangkat Anda. Kami tidak mengumpulkan atau mengunggah data ke server. Data tetap dapat diakses kapan saja, bahkan tanpa internet."
         },
         "additionalFeatures": {
-            "title": "Other Convenient Features",
+            "title": "Fitur praktis lainnya",
             "items": [
                 {
-                    "title": "Memos & Voice",
-                    "desc": "Create, edit memos and attach voice notes."
+                    "title": "Catatan dan suara",
+                    "desc": "Buat dan edit catatan serta tambahkan catatan suara."
                 },
                 {
-                    "title": "Maps & Routes",
-                    "desc": "Store origin, destination, and full route info."
+                    "title": "Peta dan rute",
+                    "desc": "Simpan titik awal, tujuan, dan informasi rute lengkap."
                 },
                 {
-                    "title": "Photo & Scan",
+                    "title": "Foto dan pindai",
                     "desc": "Ambil foto dan pindai dokumen."
                 },
                 {
-                    "title": "Drag & Drop",
-                    "desc": "Freely reorder cards with simple drag-and-drop."
+                    "title": "Seret dan lepas",
+                    "desc": "Ubah urutan kartu dengan mudah menggunakan seret dan lepas."
                 }
             ]
         },
         "faqSection": {
-            "title": "Frequently Asked Questions (FAQ)",
+            "title": "Pertanyaan yang sering diajukan",
             "items": [
                 {
-                    "q": "Is ONEfold a free app?",
-                    "a": "Yes, ONEfold provides all core features for free. You can create up to 10 folders and 20 cards per folder for free. More powerful professional features may be added in the future."
+                    "q": "Apakah ONEfold gratis?",
+                    "a": "Ya. ONEfold menyediakan semua fitur utama secara gratis. Anda dapat membuat hingga 10 folder dan menambahkan hingga 20 kartu di setiap folder. Fitur profesional yang lebih canggih mungkin ditambahkan di masa mendatang."
                 },
                 {
-                    "q": "Where are my files stored?",
-                    "a": "They are stored locally on your device and are never sent to external servers."
+                    "q": "Di mana file saya disimpan?",
+                    "a": "File disimpan secara lokal di perangkat Anda dan tidak pernah dikirim ke server eksternal."
                 },
                 {
-                    "q": "Can I use it without internet?",
-                    "a": "Yes, all features work offline. However, an internet connection is required to view saved web links."
+                    "q": "Bisakah digunakan tanpa internet?",
+                    "a": "Ya. Fitur utama dapat digunakan secara offline. Namun koneksi internet diperlukan untuk membuka tautan web yang tersimpan."
                 },
                 {
-                    "q": "What types of files can be stored in ONEfold?",
-                    "a": "Word, HWP, Excel, PowerPoint, PDF, Text, Images, Audio, Video, various Web links, and Map links."
+                    "q": "Jenis file apa yang dapat disimpan di ONEfold?",
+                    "a": "Word, HWP, Excel, PowerPoint, PDF, teks, gambar, audio, video, berbagai tautan web, dan tautan peta."
                 },
                 {
-                    "q": "What happens to my data if I delete a card or the app?",
-                    "a": "Since it's local storage, deleting the app will also delete all stored data."
+                    "q": "Apa yang terjadi pada data jika saya menghapus kartu atau aplikasi?",
+                    "a": "Karena data disimpan secara lokal, menghapus aplikasi juga akan menghapus data yang tersimpan di dalam aplikasi."
                 },
                 {
-                    "q": "Is there a storage limit?",
-                    "a": "You can store as much as your smartphone's available storage space allows."
+                    "q": "Apakah ada batas penyimpanan?",
+                    "a": "Anda dapat menyimpan data sesuai kapasitas kosong yang tersedia di ponsel."
                 }
             ]
         },
         "contact": {
-            "title": "Feedback / Developer Contact",
-            "emailPlaceholder": "Enter your email address",
-            "messagePlaceholder": "Leave your questions or feedback here",
-            "submit": "Submit",
-            "success": "Thank you! Your feedback has been sent to jgkimapex@gmail.com."
+            "title": "Masukan / Hubungi pengembang",
+            "emailPlaceholder": "Masukkan alamat email Anda",
+            "messagePlaceholder": "Tulis pertanyaan atau masukan Anda",
+            "submit": "Kirim",
+            "success": "Terima kasih! Pesan Anda telah dikirim ke jgkimapex@gmail.com."
         },
         "footer": {
-            "privacy": "Privacy Policy",
-            "terms": "Terms of Service",
-            "support": "Support",
-            "copyright": "© 2026 ONEfold. All Rights Reserved."
+            "privacy": "Kebijakan Privasi",
+            "terms": "Ketentuan Layanan",
+            "support": "Dukungan",
+            "copyright": "© 2026 ONEfold. Hak cipta dilindungi."
         }
     },
     "Policies": {
         "privacy": {
-            "title": "Privacy Policy",
-            "content": "[ONEfold] (hereinafter referred to as the \"App\") values your personal information and complies with relevant laws and regulations. This Privacy Policy explains what information the App collects and how it is used.\n\n1. Collection of Personal Information\nThis App does not provide membership registration or login functions, and does not collect personal information during the general use of the App.\n\n2. Information Collected Upon Inquiry\nWhen a user sends an inquiry via email, the following information may be collected to respond to the inquiry:\n- Email address\n- Content of the inquiry\nThis information is used only for the purpose of responding to inquiries.\n\n3. Purpose of Using Personal Information\nThe collected email address and inquiry content are used only for the following purposes:\n- Providing answers to user inquiries\n- Customer support and troubleshooting\n\n4. Period of Retention of Personal Information\nInformation collected for responding to inquiries may be stored for a necessary period after the inquiry is processed, and then safely deleted.\n\n5. Provision of Personal Information to Third Parties\nThis App does not provide or sell your personal information to third parties.\n\n6. Protection of Personal Information\nThe App applies reasonable security measures to protect personal information.\n\n7. Changes to the Privacy Policy\nThis Privacy Policy may be changed as necessary, and any changes will be notified through this page.\n\n8. Inquiry\nFor inquiries related to personal information, please contact the email below.\nEmail: jgkimapex@gmail.com\n\nEffective Date: 2026.03.01"
+            "title": "Kebijakan Privasi",
+            "content": "[ONEfold] (selanjutnya disebut “Aplikasi”) menghargai data pribadi Anda dan mematuhi hukum serta peraturan yang berlaku. Kebijakan Privasi ini menjelaskan informasi apa yang dikumpulkan Aplikasi dan bagaimana informasi tersebut digunakan.\n\n1. Pengumpulan data pribadi\nAplikasi tidak menyediakan pendaftaran anggota atau fungsi masuk dan tidak mengumpulkan data pribadi selama penggunaan normal.\n\n2. Informasi yang dikumpulkan saat menghubungi\nKetika pengguna mengirim pertanyaan melalui email, informasi berikut dapat dikumpulkan untuk memberikan jawaban:\n- Alamat email\n- Isi pertanyaan\nInformasi ini hanya digunakan untuk menjawab pertanyaan.\n\n3. Tujuan penggunaan data pribadi\nAlamat email dan isi pertanyaan hanya digunakan untuk tujuan berikut:\n- Menjawab pertanyaan pengguna\n- Dukungan pelanggan dan pemecahan masalah\n\n4. Masa penyimpanan\nInformasi yang dikumpulkan untuk menjawab pertanyaan dapat disimpan selama jangka waktu yang diperlukan setelah pertanyaan ditangani, lalu dihapus dengan aman.\n\n5. Pemberian data kepada pihak ketiga\nAplikasi tidak memberikan atau menjual data pribadi Anda kepada pihak ketiga.\n\n6. Perlindungan data pribadi\nAplikasi menerapkan langkah keamanan yang wajar untuk melindungi data pribadi.\n\n7. Perubahan Kebijakan Privasi\nKebijakan Privasi ini dapat diubah bila diperlukan. Perubahan akan diumumkan melalui halaman ini.\n\n8. Kontak\nUntuk pertanyaan terkait data pribadi, silakan hubungi alamat email berikut.\nEmail: jgkimapex@gmail.com\n\nTanggal berlaku: 2026.03.01"
         },
         "terms": {
-            "title": "Terms of Service",
-            "content": "These Terms of Service govern the rights, obligations, and responsibilities between the user and the App provider regarding the use of [ONEfold] (hereinafter referred to as the \"App\"). By downloading or using the App, you are deemed to have agreed to these terms.\n\n1. Provision of Service\nThis App provides mobile application services to users. The content of the service is provided according to the App's functions and purposes.\n\n2. Use of Service\nUsers must use the App in compliance with relevant laws and these terms. The following acts are prohibited:\n- Acts that interfere with App services or place excessive load on the system\n- Acts that interfere with the normal operation of the App\n- Using the App in a way that violates laws and regulations\n\n3. Changes to and Suspension of Service\nThe App provider may change or suspend the content, function, or method of providing the service. In case of service changes or suspensions, notice may be provided through the App or related pages.\n\n4. Limitation of Liability\nThe App provider is not responsible for the following:\n- Service use problems arising from the user's device environment or network issues\n- Damages caused by user negligence\n- Indirect or unpredictable damages that may arise from using the App\n\n5. Intellectual Property Rights\nRights to the App and the content, design, code, etc., included in the App belong to the App provider. Users may not reproduce, modify, or distribute them without the prior permission of the App provider.\n\n6. Changes to Terms\nThese terms may be changed as necessary, and changes will be notified through the App or related pages.\n\n7. Inquiry\nFor inquiries related to the use of the App, please contact the email below.\nEmail: jgkimapex@gmail.com\n\nEffective Date: 2026.03.01"
+            "title": "Ketentuan Layanan",
+            "content": "Ketentuan Layanan ini mengatur hak, kewajiban, dan tanggung jawab antara pengguna dan penyedia aplikasi terkait penggunaan [ONEfold] (selanjutnya disebut “Aplikasi”). Dengan mengunduh atau menggunakan Aplikasi, Anda dianggap menyetujui ketentuan ini.\n\n1. Penyediaan layanan\nAplikasi menyediakan layanan aplikasi seluler kepada pengguna. Isi layanan diberikan sesuai fungsi dan tujuan Aplikasi.\n\n2. Penggunaan layanan\nPengguna harus menggunakan Aplikasi sesuai hukum yang berlaku dan ketentuan ini. Tindakan berikut dilarang:\n- Mengganggu layanan Aplikasi atau memberi beban berlebihan pada sistem\n- Mengganggu pengoperasian normal Aplikasi\n- Menggunakan Aplikasi dengan cara yang melanggar hukum dan peraturan\n\n3. Perubahan dan penghentian layanan\nPenyedia dapat mengubah atau menghentikan isi, fungsi, atau cara penyediaan layanan. Bila diperlukan, pemberitahuan dapat disampaikan melalui Aplikasi atau halaman terkait.\n\n4. Batasan tanggung jawab\nPenyedia tidak bertanggung jawab atas:\n- Masalah penggunaan akibat lingkungan perangkat atau jaringan pengguna\n- Kerugian akibat kelalaian pengguna\n- Kerugian tidak langsung atau tidak terduga yang mungkin timbul dari penggunaan Aplikasi\n\n5. Hak kekayaan intelektual\nHak atas Aplikasi serta isi, desain, kode, dan unsur lain di dalamnya dimiliki oleh penyedia. Pengguna tidak boleh menyalin, mengubah, atau mendistribusikannya tanpa izin sebelumnya.\n\n6. Perubahan ketentuan\nKetentuan ini dapat diubah bila diperlukan. Perubahan akan diumumkan melalui Aplikasi atau halaman terkait.\n\n7. Kontak\nUntuk pertanyaan terkait penggunaan Aplikasi, silakan hubungi alamat email berikut.\nEmail: jgkimapex@gmail.com\n\nTanggal berlaku: 2026.03.01"
         },
         "support": {
-            "title": "Support & Contact",
-            "content": "If you have any questions or suggestions, please contact us via email.",
-            "emailTitle": "Email Support",
+            "title": "Dukungan dan kontak",
+            "content": "Jika Anda memiliki pertanyaan atau saran, silakan hubungi kami melalui email.",
+            "emailTitle": "Dukungan email",
             "email": "jgkimapex@gmail.com"
         }
     },
     "Nav": {
-        "features": "Features",
-        "guide": "User Guide",
-        "download": "Download v1.6.1"
+        "features": "Fitur",
+        "guide": "Panduan pengguna",
+        "download": "Unduh v1.6.1"
     }
 }

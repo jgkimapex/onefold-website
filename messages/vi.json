@@ -1,122 +1,122 @@
 {
     "Index": {
-        "title": "ONEfold - Organize Your Files in One Folder",
-        "description": "Collect documents, links, maps and notes in one place.",
+        "title": "ONEfold - Tất cả tệp và liên kết trong một thư mục.",
+        "description": "Tập hợp tài liệu, liên kết, bản đồ và ghi chú tại một nơi.",
         "hero": {
-            "problem": "Hard to find saved info?",
-            "headline": "Gather Everything\nin One Folder",
-            "description": "Memos, PDFs, photos, maps, and links\ngather them all into ONEfold.",
+            "problem": "Khó tìm lại thông tin đã lưu?",
+            "headline": "Tập hợp mọi thứ\ntrong một thư mục",
+            "description": "Lưu tất cả tệp và liên kết trong một thư mục.\n(Tài liệu, ảnh, âm thanh, video, liên kết Internet, v.v.)",
             "downloadAndroid": "Google Play",
             "downloadIos": "App Store"
         },
         "travel": {
-            "problem": "Lost documents while traveling?",
-            "headline": "All Travel Documents\nin One Folder",
-            "description": "Access documents at immigration/hotels\neven without internet."
+            "problem": "Không tìm thấy tài liệu khi đang đi du lịch?",
+            "headline": "Tất cả tài liệu du lịch\ntrong một thư mục",
+            "description": "Mở tài liệu tại cửa khẩu hoặc khách sạn\nngay cả khi không có Internet."
         },
         "organize": {
-            "problem": "Need to organize by topic?",
-            "headline": "Create Topic Folders\nManage everything in one place.",
-            "description": "Create folders and organize files/links\ninto clean visual cards."
+            "problem": "Cần sắp xếp theo chủ đề?",
+            "headline": "Tạo thư mục theo chủ đề\nvà quản lý mọi thứ tại một nơi",
+            "description": "Tạo thư mục và sắp xếp tệp cùng liên kết\nthành các thẻ trực quan, gọn gàng."
         },
         "discovery": {
-            "problem": "Tired of manual saving?",
-            "headline": "Save documents instantly\nthe moment you find them.",
-            "description": "Use the share feature to bring any\ninfo directly into ONEfold."
+            "problem": "Mệt mỏi vì phải lưu thủ công?",
+            "headline": "Lưu tài liệu ngay lập tức\nkhi bạn tìm thấy",
+            "description": "Sử dụng chức năng chia sẻ để đưa mọi thông tin\ntrực tiếp vào ONEfold."
         },
         "cards": {
-            "problem": "What do folders and cards look like?",
-            "headline": "Select a folder to see all files\nneatly organized into visual cards.",
-            "description": "Cards show titles, thumbnails, and notes.\nIcons at the bottom identify the file type."
+            "problem": "Thư mục và thẻ được hiển thị như thế nào?",
+            "headline": "Chọn một thư mục để xem tất cả tệp\nđược sắp xếp thành các thẻ trực quan",
+            "description": "Thẻ hiển thị tiêu đề, ảnh thu nhỏ và ghi chú.\nBiểu tượng phía dưới cho biết loại tệp."
         },
         "privacy": {
-            "problem": "Is my data safe?",
-            "headline": "We respect your privacy.",
-            "description": "All data is stored on your device. We do not collect or upload your data to servers. You can access it anytime, even without the internet."
+            "problem": "Dữ liệu của tôi có an toàn không?",
+            "headline": "Chúng tôi tôn trọng quyền riêng tư của bạn.",
+            "description": "Tất cả dữ liệu được lưu trên thiết bị của bạn. Chúng tôi không thu thập hoặc tải dữ liệu lên máy chủ. Bạn có thể truy cập bất cứ lúc nào, kể cả khi không có Internet."
         },
         "additionalFeatures": {
-            "title": "Other Convenient Features",
+            "title": "Các tính năng tiện lợi khác",
             "items": [
                 {
-                    "title": "Memos & Voice",
-                    "desc": "Create, edit memos and attach voice notes."
+                    "title": "Ghi chú và giọng nói",
+                    "desc": "Tạo, chỉnh sửa ghi chú và thêm ghi chú thoại."
                 },
                 {
-                    "title": "Maps & Routes",
-                    "desc": "Store origin, destination, and full route info."
+                    "title": "Bản đồ và tuyến đường",
+                    "desc": "Lưu điểm xuất phát, điểm đến và toàn bộ thông tin tuyến đường."
                 },
                 {
-                    "title": "Photo & Scan",
+                    "title": "Ảnh và quét",
                     "desc": "Chụp ảnh và quét tài liệu."
                 },
                 {
-                    "title": "Drag & Drop",
-                    "desc": "Freely reorder cards with simple drag-and-drop."
+                    "title": "Kéo và thả",
+                    "desc": "Tự do thay đổi thứ tự thẻ bằng thao tác kéo và thả."
                 }
             ]
         },
         "faqSection": {
-            "title": "Frequently Asked Questions (FAQ)",
+            "title": "Câu hỏi thường gặp",
             "items": [
                 {
-                    "q": "Is ONEfold a free app?",
-                    "a": "Yes, ONEfold provides all core features for free. You can create up to 10 folders and 20 cards per folder for free. More powerful professional features may be added in the future."
+                    "q": "ONEfold có phải là ứng dụng miễn phí không?",
+                    "a": "Có. ONEfold cung cấp miễn phí tất cả tính năng chính. Bạn có thể tạo tối đa 10 thư mục và thêm tối đa 20 thẻ trong mỗi thư mục. Các tính năng chuyên nghiệp nâng cao hơn có thể được bổ sung trong tương lai."
                 },
                 {
-                    "q": "Where are my files stored?",
-                    "a": "They are stored locally on your device and are never sent to external servers."
+                    "q": "Các tệp của tôi được lưu ở đâu?",
+                    "a": "Chúng được lưu cục bộ trên thiết bị và không bao giờ được gửi đến máy chủ bên ngoài."
                 },
                 {
-                    "q": "Can I use it without internet?",
-                    "a": "Yes, all features work offline. However, an internet connection is required to view saved web links."
+                    "q": "Tôi có thể sử dụng ứng dụng khi không có Internet không?",
+                    "a": "Có. Các tính năng chính hoạt động ngoại tuyến. Tuy nhiên, cần có kết nối Internet để mở các liên kết web đã lưu."
                 },
                 {
-                    "q": "What types of files can be stored in ONEfold?",
-                    "a": "Word, HWP, Excel, PowerPoint, PDF, Text, Images, Audio, Video, various Web links, and Map links."
+                    "q": "ONEfold có thể lưu những loại tệp nào?",
+                    "a": "Word, HWP, Excel, PowerPoint, PDF, văn bản, hình ảnh, âm thanh, video, nhiều loại liên kết web và liên kết bản đồ."
                 },
                 {
-                    "q": "What happens to my data if I delete a card or the app?",
-                    "a": "Since it's local storage, deleting the app will also delete all stored data."
+                    "q": "Dữ liệu sẽ ra sao nếu tôi xóa thẻ hoặc ứng dụng?",
+                    "a": "Vì dữ liệu được lưu cục bộ, việc xóa ứng dụng cũng sẽ xóa dữ liệu được lưu bên trong ứng dụng."
                 },
                 {
-                    "q": "Is there a storage limit?",
-                    "a": "You can store as much as your smartphone's available storage space allows."
+                    "q": "Có giới hạn dung lượng lưu trữ không?",
+                    "a": "Bạn có thể lưu dữ liệu trong giới hạn dung lượng còn trống trên điện thoại."
                 }
             ]
         },
         "contact": {
-            "title": "Feedback / Developer Contact",
-            "emailPlaceholder": "Enter your email address",
-            "messagePlaceholder": "Leave your questions or feedback here",
-            "submit": "Submit",
-            "success": "Thank you! Your feedback has been sent to jgkimapex@gmail.com."
+            "title": "Phản hồi / Liên hệ nhà phát triển",
+            "emailPlaceholder": "Nhập địa chỉ email của bạn",
+            "messagePlaceholder": "Nhập câu hỏi hoặc phản hồi của bạn",
+            "submit": "Gửi",
+            "success": "Cảm ơn bạn! Tin nhắn đã được gửi đến jgkimapex@gmail.com."
         },
         "footer": {
-            "privacy": "Privacy Policy",
-            "terms": "Terms of Service",
-            "support": "Support",
-            "copyright": "© 2026 ONEfold. All Rights Reserved."
+            "privacy": "Chính sách quyền riêng tư",
+            "terms": "Điều khoản dịch vụ",
+            "support": "Hỗ trợ",
+            "copyright": "© 2026 ONEfold. Bảo lưu mọi quyền."
         }
     },
     "Policies": {
         "privacy": {
-            "title": "Privacy Policy",
-            "content": "[ONEfold] (hereinafter referred to as the \"App\") values your personal information and complies with relevant laws and regulations. This Privacy Policy explains what information the App collects and how it is used.\n\n1. Collection of Personal Information\nThis App does not provide membership registration or login functions, and does not collect personal information during the general use of the App.\n\n2. Information Collected Upon Inquiry\nWhen a user sends an inquiry via email, the following information may be collected to respond to the inquiry:\n- Email address\n- Content of the inquiry\nThis information is used only for the purpose of responding to inquiries.\n\n3. Purpose of Using Personal Information\nThe collected email address and inquiry content are used only for the following purposes:\n- Providing answers to user inquiries\n- Customer support and troubleshooting\n\n4. Period of Retention of Personal Information\nInformation collected for responding to inquiries may be stored for a necessary period after the inquiry is processed, and then safely deleted.\n\n5. Provision of Personal Information to Third Parties\nThis App does not provide or sell your personal information to third parties.\n\n6. Protection of Personal Information\nThe App applies reasonable security measures to protect personal information.\n\n7. Changes to the Privacy Policy\nThis Privacy Policy may be changed as necessary, and any changes will be notified through this page.\n\n8. Inquiry\nFor inquiries related to personal information, please contact the email below.\nEmail: jgkimapex@gmail.com\n\nEffective Date: 2026.03.01"
+            "title": "Chính sách quyền riêng tư",
+            "content": "[ONEfold] (sau đây gọi là “Ứng dụng”) coi trọng thông tin cá nhân của bạn và tuân thủ các luật và quy định liên quan. Chính sách quyền riêng tư này giải thích Ứng dụng thu thập thông tin nào và sử dụng thông tin đó ra sao.\n\n1. Thu thập thông tin cá nhân\nỨng dụng không cung cấp chức năng đăng ký thành viên hoặc đăng nhập và không thu thập thông tin cá nhân trong quá trình sử dụng thông thường.\n\n2. Thông tin được thu thập khi liên hệ\nKhi người dùng gửi câu hỏi qua email, các thông tin sau có thể được thu thập để trả lời:\n- Địa chỉ email\n- Nội dung câu hỏi\nThông tin này chỉ được sử dụng để trả lời câu hỏi.\n\n3. Mục đích sử dụng thông tin cá nhân\nĐịa chỉ email và nội dung câu hỏi chỉ được sử dụng cho các mục đích sau:\n- Trả lời câu hỏi của người dùng\n- Hỗ trợ khách hàng và khắc phục sự cố\n\n4. Thời gian lưu giữ\nThông tin được thu thập để trả lời câu hỏi có thể được lưu trong khoảng thời gian cần thiết sau khi xử lý và sau đó được xóa an toàn.\n\n5. Cung cấp cho bên thứ ba\nỨng dụng không cung cấp hoặc bán thông tin cá nhân của bạn cho bên thứ ba.\n\n6. Bảo vệ thông tin cá nhân\nỨng dụng áp dụng các biện pháp bảo mật hợp lý để bảo vệ thông tin cá nhân.\n\n7. Thay đổi Chính sách quyền riêng tư\nChính sách này có thể được thay đổi khi cần thiết. Các thay đổi sẽ được thông báo qua trang này.\n\n8. Liên hệ\nĐối với câu hỏi liên quan đến thông tin cá nhân, vui lòng liên hệ địa chỉ email bên dưới.\nEmail: jgkimapex@gmail.com\n\nNgày có hiệu lực: 2026.03.01"
         },
         "terms": {
-            "title": "Terms of Service",
-            "content": "These Terms of Service govern the rights, obligations, and responsibilities between the user and the App provider regarding the use of [ONEfold] (hereinafter referred to as the \"App\"). By downloading or using the App, you are deemed to have agreed to these terms.\n\n1. Provision of Service\nThis App provides mobile application services to users. The content of the service is provided according to the App's functions and purposes.\n\n2. Use of Service\nUsers must use the App in compliance with relevant laws and these terms. The following acts are prohibited:\n- Acts that interfere with App services or place excessive load on the system\n- Acts that interfere with the normal operation of the App\n- Using the App in a way that violates laws and regulations\n\n3. Changes to and Suspension of Service\nThe App provider may change or suspend the content, function, or method of providing the service. In case of service changes or suspensions, notice may be provided through the App or related pages.\n\n4. Limitation of Liability\nThe App provider is not responsible for the following:\n- Service use problems arising from the user's device environment or network issues\n- Damages caused by user negligence\n- Indirect or unpredictable damages that may arise from using the App\n\n5. Intellectual Property Rights\nRights to the App and the content, design, code, etc., included in the App belong to the App provider. Users may not reproduce, modify, or distribute them without the prior permission of the App provider.\n\n6. Changes to Terms\nThese terms may be changed as necessary, and changes will be notified through the App or related pages.\n\n7. Inquiry\nFor inquiries related to the use of the App, please contact the email below.\nEmail: jgkimapex@gmail.com\n\nEffective Date: 2026.03.01"
+            "title": "Điều khoản dịch vụ",
+            "content": "Điều khoản dịch vụ này quy định quyền, nghĩa vụ và trách nhiệm giữa người dùng và nhà cung cấp liên quan đến việc sử dụng [ONEfold] (sau đây gọi là “Ứng dụng”). Việc tải xuống hoặc sử dụng Ứng dụng được xem là bạn đã đồng ý với các điều khoản này.\n\n1. Cung cấp dịch vụ\nỨng dụng cung cấp dịch vụ ứng dụng di động cho người dùng. Nội dung dịch vụ được cung cấp theo chức năng và mục đích của Ứng dụng.\n\n2. Sử dụng dịch vụ\nNgười dùng phải sử dụng Ứng dụng phù hợp với luật liên quan và các điều khoản này. Các hành vi sau bị nghiêm cấm:\n- Can thiệp vào dịch vụ của Ứng dụng hoặc gây tải quá mức lên hệ thống\n- Cản trở hoạt động bình thường của Ứng dụng\n- Sử dụng Ứng dụng theo cách vi phạm pháp luật và quy định\n\n3. Thay đổi và tạm ngừng dịch vụ\nNhà cung cấp có thể thay đổi hoặc tạm ngừng nội dung, chức năng hoặc phương thức cung cấp dịch vụ. Khi cần thiết, thông báo có thể được đăng qua Ứng dụng hoặc các trang liên quan.\n\n4. Giới hạn trách nhiệm\nNhà cung cấp không chịu trách nhiệm đối với:\n- Các vấn đề sử dụng phát sinh từ môi trường thiết bị hoặc mạng của người dùng\n- Thiệt hại do sơ suất của người dùng\n- Thiệt hại gián tiếp hoặc không thể dự đoán phát sinh từ việc sử dụng Ứng dụng\n\n5. Quyền sở hữu trí tuệ\nQuyền đối với Ứng dụng và nội dung, thiết kế, mã nguồn cùng các thành phần trong đó thuộc về nhà cung cấp. Người dùng không được sao chép, sửa đổi hoặc phân phối khi chưa được cho phép trước.\n\n6. Thay đổi điều khoản\nCác điều khoản này có thể được thay đổi khi cần thiết. Các thay đổi sẽ được thông báo qua Ứng dụng hoặc các trang liên quan.\n\n7. Liên hệ\nĐối với câu hỏi liên quan đến việc sử dụng Ứng dụng, vui lòng liên hệ địa chỉ email bên dưới.\nEmail: jgkimapex@gmail.com\n\nNgày có hiệu lực: 2026.03.01"
         },
         "support": {
-            "title": "Support & Contact",
-            "content": "If you have any questions or suggestions, please contact us via email.",
-            "emailTitle": "Email Support",
+            "title": "Hỗ trợ và liên hệ",
+            "content": "Nếu có câu hỏi hoặc đề xuất, vui lòng liên hệ với chúng tôi qua email.",
+            "emailTitle": "Hỗ trợ qua email",
             "email": "jgkimapex@gmail.com"
         }
     },
     "Nav": {
-        "features": "Features",
-        "guide": "User Guide",
-        "download": "Download v1.6.1"
+        "features": "Tính năng",
+        "guide": "Hướng dẫn sử dụng",
+        "download": "Tải xuống v1.6.1"
     }
 }
