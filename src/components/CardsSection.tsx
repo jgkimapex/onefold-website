@@ -78,16 +78,15 @@ export default function CardsSection() {
                         <Play className="w-4 h-4 md:w-5 md:h-5 fill-current" />
                         {h('downloadAndroid')}
                     </a>
-                    <div className="w-full sm:w-auto select-none flex flex-col items-center">
-                        <button
-                            disabled
-                            className="w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3 bg-slate-300 text-white px-5 py-2.5 md:px-8 md:py-4 rounded-xl md:rounded-2xl font-bold text-sm md:text-xl opacity-60 grayscale cursor-not-allowed"
-                        >
-                            <Smartphone className="w-4 h-4 md:w-5 md:h-5" />
-                            {h('downloadIos')}
-                        </button>
-                        <p className="hidden md:block text-xs text-slate-400 mt-1 font-medium">Coming Soon</p>
-                    </div>
+                    <a
+                        href="https://apps.apple.com/kr/app/onefold/id6799573646"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3 bg-slate-900 text-white px-5 py-2.5 md:px-8 md:py-4 rounded-xl md:rounded-2xl font-bold text-sm md:text-xl hover:bg-slate-700 transition-all shadow-xl shadow-slate-500/20 active:scale-95"
+                    >
+                        <Smartphone className="w-4 h-4 md:w-5 md:h-5" />
+                        {h('downloadIos')}
+                    </a>
                 </motion.div>
 
             </div>
