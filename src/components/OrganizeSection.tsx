@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Smartphone, Play } from "lucide-react";
+import StoreDownloadButtons from "./StoreDownloadButtons";
 
 export default function OrganizeSection() {
     const t = useTranslations('Index.organize');
@@ -73,22 +73,11 @@ export default function OrganizeSection() {
                     transition={{ duration: 0.6, delay: 0.6 }}
                     className="flex flex-col sm:flex-row items-center sm:items-start gap-1.5 md:gap-4 w-full sm:w-auto shrink-0 pb-1"
                 >
-                    <a
-                        href="https://play.google.com/store/apps/details?id=com.bizbinder.v2"
-                        className="w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3 bg-primary text-white px-5 py-2 md:px-8 md:py-4 rounded-xl md:rounded-2xl font-bold text-base md:text-xl hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20 active:scale-95"
-                    >
-                        <Play className="w-4 h-4 md:w-5 md:h-5 fill-current" />
-                        {h('downloadAndroid')}
-                    </a>
-                    <a
-                        href="https://apps.apple.com/kr/app/onefold/id6799573646"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3 bg-slate-900 text-white px-5 py-2 md:px-8 md:py-4 rounded-xl md:rounded-2xl font-bold text-base md:text-xl hover:bg-slate-700 transition-all shadow-xl shadow-slate-500/20 active:scale-95"
-                    >
-                        <Smartphone className="w-4 h-4 md:w-5 md:h-5" />
-                        {h('downloadIos')}
-                    </a>
+                    <StoreDownloadButtons
+                        androidLabel={h('downloadAndroid')}
+                        iosLabel={h('downloadIos')}
+                        size="tight"
+                    />
                 </motion.div>
 
             </div>
