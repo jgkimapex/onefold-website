@@ -22,7 +22,7 @@ export default function FeatureGridSection() {
     ];
 
     return (
-        <section className="min-h-dvh snap-start md:h-screen md:snap-always flex flex-col items-center justify-center pt-20 [@media(max-height:740px)]:pt-16 md:pt-24 pb-10 [@media(max-height:740px)]:pb-6 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden bg-white mobile-section">
+        <section className="min-h-dvh snap-start snap-always md:h-screen flex flex-col items-center justify-center pt-20 [@media(max-height:740px)]:pt-16 md:pt-24 pb-10 [@media(max-height:740px)]:pb-6 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden bg-white mobile-section">
             <div className="max-w-4xl mx-auto flex flex-col gap-6 [@media(max-height:740px)]:gap-4 md:gap-12 items-center w-full md:h-full justify-between py-4 [@media(max-height:740px)]:py-2 md:py-8 mobile-section-container">
 
                 {/* Title Section */}

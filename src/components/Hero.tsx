@@ -9,7 +9,7 @@ export default function Hero() {
     const t = useTranslations('Index.hero');
 
     return (
-        <section className="min-h-dvh snap-start md:h-screen md:snap-always flex flex-col items-center justify-center pt-24 [@media(max-height:740px)]:pt-20 pb-10 [@media(max-height:740px)]:pb-6 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden mobile-section mobile-section-hero">
+        <section className="min-h-dvh snap-start snap-always md:h-screen flex flex-col items-center justify-center pt-24 [@media(max-height:740px)]:pt-20 pb-10 [@media(max-height:740px)]:pb-6 md:pb-8 px-6 text-center overflow-visible md:overflow-hidden mobile-section mobile-section-hero">
             <div className="max-w-4xl mx-auto flex flex-col gap-4 [@media(max-height:740px)]:gap-3 md:gap-8 items-center justify-center w-full md:h-full mobile-section-container">
 
                 {/* 1. Problem Question */}
